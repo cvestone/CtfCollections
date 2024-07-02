@@ -377,3 +377,501 @@ nc without-love-it-cannot-be-seen.knping.pl 30001
 
 ---------------------------------------------------
 ## 231216_wgmyctf
+### web
+#### myCloud
+
+"Made a myCloud drive website for upload and download files with ChatGPT! Feel free to try it"
+
+---
+#### Pet Store Viewer
+
+Explore our online pet store for adorable companions – from playful kittens to charming chickens. Find your perfect pet today. Buy now and bring home a new friend!
+
+Connect here: 13.215.209.185:8222
+
+---
+#### Report Google
+
+What's wrong with Google?!
+
+---
+### misc
+#### Dialect
+
+Languages have dialect, but do you know programming Languages have dialect too?
+
+---
+#### Sayur
+
+Sayur Kemudian Lebih Latih
+
+---
+#### Splice
+
+Someone corrupted my QR code! Fortunately I got backup. Someone corrupted my backup!
+
+---
+#### Warmup - Game
+
+It's cold, we need to warmup
+
+---
+### forensic
+#### Can't Snoop
+
+Sending files the safe way
+
+---
+#### Compromised
+
+Where aRe you?
+
+---
+#### SeeYou
+
+"Our analysts have discovered that a file has been compromised and transferred to another internal computer. Could you assist us in investigating this incident?"
+
+---
+### ppc
+None description,all in attachments.
+### crypto
+#### Hohoho 2
+
+"Santa is coming to town! Send wishes to santa by connect to the netcat service"
+
+Connect here: 13.215.209.185:2000
+
+---
+#### Hohoho 2 Continue
+
+Someone exploited the service! Disabled the registration for the service
+
+Connect here 13.215.209.1852001
+
+---
+#### N-less RSA
+
+Endless RSA?
+
+---
+### reverse
+#### Defeat the boss
+
+Defeat the boss and you get the flag, probably, maybe, I think, hmmm
+
+Download here:
+https://www.dropbox.com/scl/fi/cvycpygrq759vqd5lfgsb/Game_boxed-1.exe?rlkey=pmel11rq3xp8m8swaeqelfhgt 
+
+Mirror:
+https://drive.google.com/file/d/1kmAUlT2Mf8myr8XsJYF3liSOfDVgM1e7/view?usp=sharing
+
+
+
+If the application stuck on white screen when start, kill it and restart it.
+
+Check SHA1 hash before start: 760e2ac6243bd8e78747f8fdf8bf329ee5da5b47
+
+---
+#### RmRf
+
+"What happened to my system? It has been working perfectly for more than 20 years."
+
+pass: wgmy
+
+---
+### pwn
+#### freejuice
+
+Free food always tastes good. Free drinks even better
+
+Connect here: 13.215.209.185:10001
+
+---
+#### magic door
+
+Knock Knock open the door please
+
+Connect here: 13.215.209.185:10002
+
+---
+#### pakmatburger
+
+Delight in Pak Mat's exclusive burger, reserved just for our special customers
+
+Connect here: 13.215.209.185:10003
+
+---
+## 231217_nitectf
+### web
+#### caas renewed
+352
+Author: ravinesPlains
+
+moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo etc moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo etc moo moo moo moo moo etc moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo moo etc moo moo moo moo etc/cowsay/falg.txt
+
+http://caas.web.nitectf.live/
+
+---
+#### Image Gallery
+470
+Author: T3mp∈$+
+
+View your photo gallery using our super Secure image gallery. we offer free 1 terabyte of storage of high-Quality images, showcased in a personalized custom aLbum.
+
+link:  https://imgy-gal.nitectf.live/
+bakup link:  https://imgy-galll.nitectf.live/
+
+---
+#### Mini Survey
+480
+Author: Vikaran
+
+Please answer this survey for the better of all
+
+- Minnesota Dept of Roads & Railways
+
+http://mini-survey.web.nitectf.live/
+
+---
+#### ERaaS
+50
+Author: ravinesPlains
+
+Emergency response? Afraid not.
+
+http://eraas.web.nitectf.live/
+
+---
+#### LiteLibrary
+437
+Author: ravinesPlains
+
+Testing in prod. No worries are long as we are lighte :)
+
+http://litelibrary.web.nitectf.live/
+
+---
+#### LiteLibrary v2
+500
+Author: ravinesPlains
+
+It's done. We are live. Our IT guy barked at stuff. We barked counter stuff back at him. The point is that the lite-ness continues to be maintained.
+
+http://litelibrary-v2.web.nitectf.live/
+
+---
+### misc
+#### DecryptaQuest
+480
+Embark on a silent adventure between a web browser and server. No clues, just mystery. Good luck, detective of the unknown!
+
+"Flag format : NITE{FLAG}"
+
+---
+#### gacha
+496
+Author: caligo_phantom
+
+Can you help me pull for the SSR?
+
+---
+#### least ELOistic fish
+499
+Authors: YouGuess, D3V4, aRacHn0!D
+
+Welcome to Unfair Chess! You always get to play White, but there's a catch, a couple actually!
+
+For every move you play, Black gets two! Stockfish plays against you!
+
+Really straight forward, survive 50 moves, you win.
+
+You can get your Italians ready by 1. e2e4 or play Queen's Gambit with 1. d2d4
+
+I played 1. d2d4 then 2. c2c4 then 3. d1d4 and lost my Queen :'(
+
+Good luck to you though!
+
+nc 34.93.104.246 1337
+
+---
+#### porters whistle
+500
+Author: ravinesPlains
+
+Tuition fees have gotten so pricey. Check out the email this mum's sent.
+
+---
+#### where is porter
+500
+Author: ravinesPlains
+
+Porter has gone MIA. Yes there is some action happening. But right now we need to focus on finding her. The following evidence was found at one of the multiple condos she had rented. Can you figure out where she went?
+
+Flag format: nite{<buildings-english-name-in-lowercase-with-underscore>}
+
+---
+#### blindjail
+50
+Author: aRacHn0!D, D3V4
+
+There is no escape, sometimes going in blind makes other attributes stronger.
+
+nc 34.100.177.188 1337
+
+---
+#### Game-Theory
+425
+Author: shreyyyk,spiderdrive is it MatPat , because welcome to GameTheory
+
+If nothing seems to work NOTHING WORKS
+
+nc 35.200.129.176 1337
+
+---
+#### welcome2
+500
+Author: ravinesPlains
+
+bored of solitude and lonesomeness we made an ad
+
+yes this is an ad. Isn't it OG enough?
+
+as I said, we were bored so we didn't go for anything too shiny
+
+link:  https://welcome2.nitectf.live/
+bakup link:  https://welcome-to.nitectf.live/
+
+The flag is split into 3 parts. These parts are to be obtained with the same method after a minor modification for each part.
+
+---
+### forensics
+#### i give up
+500
+Author: T3mp∈$+
+
+John Doe, the admin of a very famous meme page, has been missing for quite a while. I was analysing the last video he was working on, but the frames I extracted are corrupted. I am sending the frames and audio to you; I give up.
+
+Hint:- Do the frames actually lead to the flag, xor it's just another rickroll? Where's the key tho...
+
+---
+#### Matryoshka
+466
+Author: YouGuess
+
+: I think we should have a matryoshka challenge..
+
+: Sure! Go ahead.
+
+: Let's make it different this time. HEhe!
+
+: *-+
+
+---
+#### Phantasmagoria
+473
+Author: YouGuess, Asturias
+
+Perchance, Professor Paranoid purposefully painted this puzzling picture to prompt his pupils. Perhaps, you can procure the passphrase.
+
+---
+### incident_response
+#### cheval de troie
+437
+Author: SG14
+
+After accessing our private network, the hacker skillfully maneuvered through files, leaving behind a virtual trail of mystery. We managed to capture the packets, exposing the encrypted breadcrumbs scattered across the network. Before slipping away into the digital abyss, the intruder left a deliberate hint—a cryptic message that conceals the essence of their next move. Decrypt the message and unveil the obscured 'crypto' to thwart their cunning plan.
+
+Taupe will be visible after this challenge
+
+---
+#### conqueror
+256
+Author: unspecialfx
+
+Our company is dealing with a possible case of corporate espionage. The credentials of one of our systems were changed and it was used to gain access to our internal network.
+
+Help us gain access to the system before its too late.
+
+Flag Format: nite{user_password}
+
+coup de réseau will be visible after solving this challenge.
+
+---
+#### coup de réseau
+384
+Author: unspecialfx
+
+Too late. The network admin's system was compromised and we can't access our network anymore. Investigate the memory dump.
+
+Amour Plastique will be visible after solving this challenge.
+
+---
+#### Taupe
+500
+Author: unspecialfx
+
+No wonder we were so easily hacked. Our investigation revealed that one of our employees has been communicating with the hacker. However, without any proof, there is no way to take action. Find the secret message.
+
+---
+#### Amour Plastique
+384
+Author: unspecialfx
+
+It seems the intruder likes to hack in style. Analysis reveals the hacker was listening to a playlist while destroying the admin's system. Surely they might have left their tracks. Use dump2 to investigate.
+
+cheval de troie will be visible after solving this challenge.
+
+---
+### crypto
+#### babyRSA
+50
+Author : Aditii,Asturias
+
+RSA in haystack
+
+---
+#### cha-cha-cha
+500
+Author:Asturias
+
+oracles...hmm..
+
+nc 35.204.210.148 1337
+
+---
+#### double-whammy
+499
+Author: Asturias
+
+I need a new admin for my AES encryption service, but sigh, no one seems to make the cut :/
+
+nc 34.90.85.37 1337
+
+---
+#### Lost in the Spectrum
+470
+Author: gurmann
+
+Can you find the flag among the noise?(a lone X is unknown )
+
+Wrap flag in nite{ }
+
+---
+#### PARtly bintastic
+495
+Author: Aditii
+
+crack your neck for the unimportant bits. mr.hamming might help out iykyk
+
+Wrap flag in nite{}
+
+---
+#### Quantum Quandary
+500
+Authors: Definately_Not_A_Bot
+
+Even Antman can't explain how to decrypt this by using the word 'quantum'
+
+---
+#### Solitaires are pretty
+499
+Author: D
+
+Panther is engaged in a game of cards, yet it seems that he has not utilized the entire deck.
+
+Wrap flag in nite{}
+
+---
+#### Unraveling the Patterns
+497
+Author: D
+
+You have intercepted a message from an encrypted communication channel, but it appears that the sender has implemented additional measures to safeguard the information. Are you able to decrypt it?
+
+---
+### reverse
+#### German shell
+277
+Author: ravinesPlains
+
+Do you have an Albert Einstein in you? If not you better find one cuz you gonna need em else you gunna faint rottin
+
+/var/quantumLava/flag.txt
+
+nc 35.244.43.8 1337
+
+---
+#### Lipton base
+499
+Author: 0xB0Z0
+
+decompiling the binary while drinking Lipton Ice Tea, is there anything better? Sips the Tea
+
+---
+#### Minelogic
+499
+Author: gurmann
+
+Like everyone in this world, John Doe has a lock and a key. He knows the 3 bit lock is 110 but he has lost all the 8 bit keys. Help him find all the keys.
+
+Flag format: Arrange all keys in ascending order, join with _ and wrap it with nite{}
+
+---
+#### Top Secret
+495
+Author: YouGuess, spiderdrive
+
+We were able to intercept a transmission signal to end up getting an image from an criminal firm and one of our spies was able to send us an program which was used to encrypt it but he was caught right after that and lost some part of it before he could send it can u help us decrypt the transmission.
+
+---
+#### You Collide, You lose - I
+483
+Author: Valvahen
+
+You find yourself in a strange 2D world and the only way to escape is by finding the flag hidden in your surroundings. Look in every nook and cranny for it and be very patient because even a small slip up lands you back at the beginning.
+
+You Collide, You lose - II will be visible after solving this challenge.
+
+---
+#### You Collide, You lose - II
+495
+Author: Valvahen
+
+Turns out one flag ain't gonna be enough. To get out, you need the secret code sung by the mystic P13t P1p3r whose ardent rings can forever be heard in an eerie corner of the world. Best of luck.
+
+---
+#### Zealot
+50
+Author:0xB0Z0
+
+Follow the commandments and you shall be worthy enough to lift the sword of Zealot
+
+nc 34.93.183.186 1337
+
+---
+### pwn
+#### ARM's race
+500
+Author: skryptonyte
+
+Note: You may use QEMU userspace emulation for testing your exploit but the way address spaces are created may cause issues.
+
+nc 35.247.159.106 5000
+
+---
+#### ARMv8-NITE
+500
+Author: Skryptonyte We are experimenting on a new extension of the ARMv8 spec! Introducing ARMv8-NITE with blazing fast registers to crush those benchmarks!
+
+nc 34.125.89.18 5000
+
+---
+#### The road not taken
+50
+Author: spiderdrive
+
+Show me the right path to reach my final destination
+
+nc 34.100.142.216 1337
+
+---
