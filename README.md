@@ -1616,7 +1616,370 @@ Can you get the sword ?
 You are a skilled hacker known for your expertise in binary exploitation. One day, you receive an anonymous message challenging your abilities. The message contains a mysterious binary file. Now you decide to analyze the file.
 
 ---
+#### T-Box
+`score:500` `solve_count:1`
+
+`Pwn`,`difficulty:Normal`
+
+In the digital realm, three Cyber Boxes existed, which We called Trinity Box or T-Box.   
+The first jumpbox, the second gatebox, and the final flagbox. Summon a flag when gathered all three box
+
+`nc  47.251.11.236 8888`
+
+[attachment](https://rwctf.oss-accelerate-overseas.aliyuncs.com/tbox_aebbd1a4615c0ae40283c825d0323f3a.tar.gz)
+
+---
 ## 240126_ctrwctf
+### web
+#### ChatterBox
+`score:194` `solve_count:21`
+
+`Web`,`difficulty:Normal`
+
+i wanna inject sth in my Box what should i do?
+
+`nc 47.89.225.36 9999`
+
+ ~~[attachment](https://rwctf.oss-accelerate.aliyuncs.com/ChatterBoxAttachment_66efe1cf3d582cd04eeb5ce040f76d00.zip)~~ 
+
+cn-oss: [update attachment](https://rwctf-cn.oss-cn-shanghai.aliyuncs.com/ChatterBox-Attachment-Fix-20240127_782dab8bbebe2f058abb04119eadfe88.zip)
+
+accelerate-oss: [update attachmen](https://rwctf.oss-accelerate.aliyuncs.com/ChatterBox-Attachment-Fix-20240127_782dab8bbebe2f058abb04119eadfe88.zip)
+
+---
+#### minioday
+`score:290` `solve_count:11`
+
+`Web`, `difficulty:Baby`
+
+Old CVEs, try to pwn it for fun.
+
+`nc 47.251.10.169 8888`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/minioday_ae840a8753beaa379e6269bd750e3145.tar.gz)
+
+---
+### blockchain
+#### SafeBridge
+`score:224` `solve_count:17`
+
+`Blockchain`, `difficulty:hard`
+
+I've crafted what I believed to be an ultra-safe token bridge. Don't believe it?
+
+`nc 47.251.56.125 1337`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/rwctf-6th-safebridge-main_c062eea503d4a1e2c08a2fd2a76b8208.zip)
+
+---
+### misc
+#### LLM sanitizer
+`score:84` `solve_count:66`
+
+`Misc`, `difficulty:Baby`
+
+Show your jailbreaking techniques and get the flag.
+
+`nc -v -N 47.89.192.246 1337`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/llm-sanitizer_393145a890eafc0b310189d8f8a2a8c1.tar.gz)
+
+---
+#### Long Range 2
+`score:320` `solve_count:9`
+
+`Misc`, `difficulty:Baby`
+
+Of late, whispers doth persist behind mine back. Yesterday, under the studio tower, a peculiar contraption was found by me. I am most intrigued to discover the content of their discourse.
+
+[attachment](https://github.com/chaitin/Real-World-CTF-6th-Challenges/releases/download/x/LongRange2_2bf203ac61f7a3c5f24ee3a250d8abd6.zip)
+
+---
+### misc&web
+#### Protected by Java SE
+`score:338` `solve_count:8`
+
+`Misc`, `Web`, `difficulty:Baby`
+
+Write down your best, most precise vulnerability-matching CodeQL query here. I will use it to defeat LLM and stop the endless layoffs to save our jobs!
+
+`nc 47.254.70.30 9999`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/Protected-by-Java-SE_d49cacf1624e44ca3d0cfa15fff59572.tar.gz)
+
+---
+### misc&crypto
+#### The truth of Plain
+`score:87` `solve_count:63`
+
+`Misc`, `Crypto`, `difficulty:Baby`
+
+You are right, but \"CTF\" originated from the DEFCON global hacker conference in 1996. It is a competitive game among network security enthusiasts. This game takes place in a competition called \"RealWorld\", where those who solve the challenge will be awarded a \"Flag\". You will play a character named \"CTFer\" and work with your teammates in the game, using knowledge and skills to solve various challenges - and at the same time, gradually discover the truth of \"Plain\".
+
+Repository: https://github.com/gwuhaolin/lightsocks
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/The-truth-of-Plain_7b3fc647885f3723efd0a67418548f05.tar.gz)
+
+---
+### Forensics
+#### Grandma's Laptop
+`score:500` `solve_count:0`
+
+`Forensics`, `difficulty: Normal` 
+
+> Unfortunately, my grandma has passed away recently. The photos in her laptop  
+> are the only memory of her that I have. However, I could not remember the  
+> password of her laptop. The photos are protected by BitLocker and cannot be  
+> read out directly from the disk. I am trying to restore the photos. I really  
+> need your help.  
+
+Grandma's Laptop is available at https://47.88.103.9:1337/.  
+
+[Attachment](https://rwctf.oss-accelerate.aliyuncs.com/grandmas-laptop_1d06ddeced66222099193de75ec7eed7.zip)
+
+Hint for Grandma's Laptop: pick your favorite from https://github.com/Wack0/bitlocker-attacks#software-attacks
+
+---
+### crypto
+####
+### reverse
+####
+### pwn
+#### Corrupted GI
+`score:500` `solve_count:1`
+
+`Pwn`,`difficulty:Normal`
+
+In the realm of code, where the brave ones dwell,  
+Seek the treasure hidden, in CGI's shell.  
+Courageous hackers, let your skills unfold,  
+Break the chain, let the story be told.  
+For glory awaits those who unveil the unknown,  
+In the digital world, let your prowess be shown.
+
+`nc 47.88.19.153 12345`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/Corrupted-GI_a67212e62fe38bb2acdf8c873a21d187.tar.gz)
+
+---
+#### Let's party in the house
+`score:378` `solve_count:6`
+
+`Pwn`, `Panasonic (PCSL)`, `difficulty:Schrödinger`
+
+Oh, no, in the middle of our party, there was a strange baby cry coming from the IP Camera.  
+There is only one service in the device, can you figure out the baby crying? flag path: /flag
+
+`nc 47.88.48.133 7777`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/Lets-party-in-the-house_2cd37ebed31d41afb6bbe094659985d9.tar.gz)
+
+---
+#### pgsum
+`score:477` `solve_count:2`
+
+`Pwn`, `difficulty:Normal`
+
+We have added sum support for string to postgresql! Try it out!  
+
+`nc 47.88.60.165 6666`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/pgsum_6fae44ea2a073cf398ca931cffeb5f44.tar.gz)
+
+---
+#### RIPTC
+`score:500` `solve_count:1`
+
+"`Pwn`, `difficulty:Hard`
+
+Lyrics: RIPTC  
+Composer: Krias aka Digging into kernel  
+
+I'm fond of the days that are retro  
+Hate the future's unpredictable echo  
+Peep into the kernel, take a look  
+Revive the code that the attack took  
+Found one new 0 day, what a magic  
+Triggering the moment, I've lost the knack  
+Patching up the class, secrets I pack  
+
+*Source code added a few files, ain't no pretense*  
+*Three characters added in another file, spotted only in vmlinux, no defense*  
+
+Friends from afar, they arrive  
+Could you help me thrive, like eating greens, time  
+
+`nc 47.88.23.76 7788`
+
+[attachment](https://github.com/chaitin/Real-World-CTF-6th-Challenges/releases/download/x/riptc_attachment_241a4f7b8921b131e3237af987ad4f82.tar.gz)
+
+Hint1 for RIPTC:
+
+**Source code added a few files, ain't no pretense**
+
+By learning from CVE-2023-1829, CVE-2023-3776 and CVE-2023-4206, you will find a new bug in cls_tcindex.c"
+
+---
+#### Router4
+`score:451` `solve_count:3`
+
+`Pwn`, `Clone-and-Pwn`, `difficulty: Hard`
+
+
+The great magician Merlin created this magical device, but accidentally left a vulnerability in it. And you, as an extraordinary hacker, now have this magical device in front of you. Can you discover this vulnerability and use your 'magical skills' to break through it?
+
+** Please select your target from the following: **
+
+
+`nc hk.router4.exp.sh 8888`  
+`nc us.router4.exp.sh 8888`  
+`nc eu.router4.exp.sh 8888`
+
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/router4_2024-01-27_3688a0d4db759a71e0a43408108c5eae.tar.gz)
+
+---
+#### 烫烫烫
+`score:500` `solve_count:0`
+
+`Pwn`,   `difficulty:Normal`
+
+Make sure to be very very far away from my b\"\\xCC\\xCC\\xCC\\xCC\\xCC\\xCC\" unless you want to be badly burned.
+
+nc 47.251.60.42 1337
+
+[attachment](https://github.com/chaitin/Real-World-CTF-6th-Challenges/releases/download/x/tangtangtang-d619474e9d8eecac00e8643f8b73bbd2b82030a8476ca89153724d5bb50a8ad9.tar.zst)
+
+---
+### pwn&misc
+#### PyGhost
+`score:500` `solve_count:0`
+
+`Pwn`, `Misc`, `demo`, `difficulty: Schrödinger`
+
+This is an LPE(Local Privilege Escalation) challenge. Your task is to pop a highly-privileged(`nt authority\\system`) cmd.exe as a low-privileged user. Follow these steps to deploy the challenge locally:  
+
+1. download and install the virtual machine from: [https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)  
+2. execute the installer (installer.exe in the attachment) as Administrator  
+3. the installer will set up the vulnerable component. You can then attempt to find the vulnerability and exploit it  
+
+Notes about the demo:  
+1. Send your `exploit archive file` to demo@realworldctf.com and DM @M4x on Discord when you're ready. Meanwhile, the email should also contains your team name and team token  
+2. You can choose to demo your exploit publicly or privately, according to your preference. If you choose to demo publicly, the entire process will be visible to everyone, so remember to remove sensitive information. If you choose to demo privately, we will set up a private discord channel that only includes the admin and your team members  
+3. Our demo VM is slightly configured, including:  
+   a. Windows Defender is disabled. You don't have to contend with it.  
+   b. A standard user(not in the Administrator group, with the username being `ctf`) is created for demo purposes. We will run your exploit in the context of the standard user.  
+4. If your exploit needs multiple steps, please batch them in a single file. We will only execute one of your files and then wait for the result without more user interaction  
+
+I will not accept more than 3 emails per team. If you really need more, you will need to explain to me in detail why you messed up your first 3 tries and convince me that you deserve a 4th chance.   
+The running time for each try cannot exceed 3 minutes.  
+
+I will reward you with the flag if the highly-privileged cmd.exe pops up.  
+
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/PyGhost_5878b9faae5d9992014e5a7da12c9317.zip)
+
+---
+#### YouKnowHowToFuzz!
+`score:93` `solve_count:57`
+
+`Misc`, `Clone-and-Pwn`, `difficulty:Baby`
+
+I like eat domato, it''s excellent for dom fuzz, try to use your rule!
+
+`nc 47.251.60.74 9999`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/YouKnowHowToFuzz_c1096481538d6a5677edb9259746baee.tar.gz)
+
+---
+### pwn&web
+#### GeoServer Jive The RCE Hive
+`score:500` `solve_count:0`
+
+`Web`, `Clone-and-Pwn`, `difficulty:Schr\u00f6dinger`  
+
+Welcome, seekers of cyber lore,  
+To a challenge like none before.  
+In a world where maps are key,  
+GeoServer's the tool, you see.  
+
+It's set on Windows, standing tall,  
+With Tomcat running, serving all.  
+But lurking deep, a bug does hide,  
+An RCE gap, wide and wide.  
+
+Your mission, should you choose to play,  
+Is to exploit in a clever way.  
+Use your skills, be sharp and keen,  
+In the code, where not easily seen.  
+
+Find the flaw, make your move,  
+Let your savvy cyber groove  
+Turn the tide, and gain control,  
+In this digital escapade role.  
+
+So embark on this virtual quest,  
+Put your hacking skills to the test.  
+In this GeoServer jive,  
+Find the hive where RCEs thrive.  
+
+Can you dive into the code,  
+On this cyber treasure road,  
+And emerge, with flags in hand,  
+As the finest hacker in the land?  
+
+`nc 47.89.213.235 1337`  
+
+[attachment](https://github.com/chaitin/Real-World-CTF-6th-Challenges/releases/download/x/GeoServer-Jive_d252d8eb13661a56ac7d0185bd7ddf40.zip)
+
+Hints 1:
+ - First of ALL: for the expected solution, you MUST following the README.txt file to deploy the geoserver.
+ - The expected solution is a combined Pre-auth RCE vulnerability of stable version of geoserver at 2.24.1 (just found that geoserver lastest released version 2.24.2, don't worry, it's is also vulnerable to expected solution), in more detail, it's an pre-auth vulnerability combined with post-auth RCE vulnerability.
+ - For the pre-auth vulnerability, your mission is to find an 'abitrary file read' vuln (not a really 'abitrary', but is sufficient for you to obtain admin's privilege), after then, you can seek for post-auth RCE on geoserver 2.24.1 or geoserver 2.24.2 if you want ;)
+ - The deployed machine is in an isolated network therefore it is not vulnerable to any oob attacks.
+
+---
+#### Nightmail
+`score:500` `solve_count:0`
+
+`Web`, `Pwn`, `difficulty:Schrödinger`
+
+> You sent a nightmail in the moon's pale glare,
+> Then in my slumber, nightmares came to snare.
+
+About the challenge:
+
+* Environment setup: You can use the software installation package provided in the attachment to build a local environment for test. You can follow the default steps during installation, except for the `Set up encryption` step, you should choose `Continue without encryption` option.
+
+* Find the vulnerability: Try to find a Remote Code Execution (RCE) vulnerability in eM Client installed in Windows, the vulnerability should be triggered when the victim clicks the malicious email sent by you.
+
+* Capture the flag: After your exploit successfully works in your local environment, you can connect to `nc 47.89.252.163:1337` to apply for your team's independent vm environment and then try to obtain the flag.
+
+About the vm:
+
+* OS: Windows Server 2022 x64
+* Software version: eM Client v9.2.2157
+* Path to flag: `C:\\flag`
+* After the vm starts, an automated script will simulate logging into eM Client with the victim email address. After waiting for 5 minutes, it will click on the most recent email in the inbox.
+* The vm will be destroyed after 15 minutes.
+* If you are sure that your exploit can work locally but keeps failing in the remote vm environment, please contact me (@voidfyoo) on discord channel.
+
+[attachment](https://github.com/chaitin/Real-World-CTF-6th-Challenges/releases/download/x/emclient-568e1a4c9ac16bda48f33ed1d1d325b1.zip)
+
+---
+### shellcode
+#### hoshmonster
+`score:500` `solve_count:1`
+
+`shellcode`,  `difficulty:Hard`
+
+Thanks to Qiangwangbei organizers for the ~~guest~~stolen challenge!
+
+`nc 47.89.227.164 1337`
+
+[attachment](https://rwctf.oss-accelerate.aliyuncs.com/hoshmonstar-96d726b8c98b345490dc8d6e5c9e1139db380090dbbd0f5fd9592bfd184b99f5.tar.zst)
+
+---
 ## 240202_dicectf
 ### web
 #### dicedicegoose
@@ -2113,7 +2476,7 @@ Downloads
 
 ---
 ## 240301_vishwactf
-
+### 
 ## 240308_pearlctf
 ### web
 #### learn_HTTP
