@@ -875,3 +875,615 @@ Show me the right path to reach my final destination
 nc 34.100.142.216 1337
 
 ---
+## 240114_uoftctf
+### web
+#### Guestbook
+442
+I made this cool guestbook for the CTF. Please sign it.
+
+Author: Ido
+
+---
+#### Jay's Bank
+499
+My bank is still in pre-alpha-alpha-alpha stage, but I'm sure it's secure enough to keep all of your information safe.
+
+Author: SteakEnthusiast
+
+http://34.123.200.191/
+
+---
+#### My First App
+494
+I'm not much of a web developer, so my friends advised me to pay for a very expensive firewall to keep my first app secure from pesky hackers. Come check it out!
+
+Author: SteakEnthusiast
+
+https://uoftctf-my-first-app.chals.io/
+
+---
+#### No Code
+362
+I made a web app that lets you run any code you want. Just kidding!
+
+Author: SteakEnthusiast
+
+https://uoftctf-no-code.chals.io/
+
+---
+#### The Varsity
+293
+Come read our newspaper! Be sure to subscribe if you want access to the entire catalogue, including the latest issue.
+
+Author: SteakEnthusiast
+
+uoftctf-the-varsity.chals.io
+
+---
+#### Voice Changer
+232
+I made a cool app that changes your voice.
+
+Author: Ido
+
+https://uoftctf-voice-changer.chals.io/
+
+---
+### misc
+#### Out of the Bucket
+100
+Check out my flag website!
+
+Author: windex
+
+https://storage.googleapis.com/out-of-the-bucket/src/index.html
+
+---
+#### Out of the Bucket 2
+407
+This is a continuation of "Out of the Bucket". Take a look around and see if you find anything!
+
+Author: windex
+
+---
+#### Prediction API
+500
+I downloaded a model that performs categorical classification on images. I want to use this model in a web application, but it doesn't seem to be very accurate. Can you check out the weights and see if you can figure out what's wrong?
+
+Author: windex
+
+http://35.209.84.6/
+
+hint:
+The groundbreaking paper presenting model extraction attacks is listed here: https://arxiv.org/abs/1609.02943
+
+There are other more recent papers that go over this, perhaps you can find it!
+
+Prediction responses are returned in the same order as in Python's sorted(os.listdir()).
+
+---
+#### Source Code Recovery
+500
+Oops I deleted the source code, do you mind recovering it?
+
+Author: nullptr
+
+nc 35.202.233.94 1337 < solution.c
+
+---
+### forensics
+#### EnableMe
+358
+You've received a confidential document! Follow the instructions to unlock it.
+
+Note: This is not malware
+
+Author: SteakEnthusiast
+
+---
+#### Hourglass
+481
+No EDR agent once again, we imaged this workstation for you to find the evil !
+
+Download Link : https://storage.googleapis.com/hourglass-uoftctf/ctf_vm.zip
+
+( Updated Link, attachments remain the same, nothing was changed. )
+
+Author: 0x157
+
+---
+#### Illusion
+499
+Good Luck.
+
+Author: 0x157
+
+---
+#### No grep
+475
+Use the VM from Hourglass to find the 2nd flag on the system !
+
+Author: 0x157
+
+---
+#### Secret Message 1
+100
+We swiped a top-secret file from the vaults of a very secret organization, but all the juicy details are craftily concealed. Can you help me uncover them?
+
+Author: SteakEnthusiast
+
+---
+#### Secret Message 2
+500
+The super secret organization changed their flag again. Can you work your magic again?
+
+Hint: The flag characters contain abcdefghijklmnopqrstuvwxyz_
+
+Author: SteakEnthusiast
+
+---
+### osint
+#### Flying High
+100
+I'm trying to find a flight I took back in 2012. I forgot the airport and the plane, but I know it is the one with an orange/red logo on the right side of this photo I took. Can you help me identify it?
+
+The flag format is UofTCTF{AIRPORT_AIRLINE_AIRCRAFT}. AIRPORT is the 3 letter IATA code, AIRLINE is the name of the airline (dash-separated if required), and AIRCRAFT is the aircraft model and variant (omit manufacturer name). For example, UofTCTF{YYZ_Air-Canada_A320-200} or UofTCTF{YYZ_Delta_767-300}.
+
+Note: The aircraft variant should be of X00 format; ie. there may be models with XYZ-432, but the accepted variant will be XYZ-400.
+
+Author: windex
+
+---
+### jail
+#### Baby JS Blacklist
+466
+I hate functions. I hate them so much, that I made it so that you can never call them!
+
+Note: Solving this challenge will unlock another challenge, "JS Blacklist".
+
+Author: SteakEnthusiast
+
+nc 34.172.149.49 5000
+
+---
+#### Baby's First Pyjail
+100
+@windex told me that jails should be sourceless. So no source for you.
+
+Author: SteakEnthusiast
+
+nc 35.226.249.45 5000
+
+---
+#### JS Blacklist
+500
+"use really_really_really_strict";
+
+Can you escape my jail now?
+
+Author: SteakEnthusiast
+
+nc 35.239.253.188 5000
+
+---
+#### JS Evaluator
+500
+Last year, I found a critical security vulnerability in Babel. I heard path.evaluate() is secure now, but it still wasn't useful enough for me. I added some code to enhance the functionality, without impacting the security!
+
+Author: SteakEnthusiast
+
+nc 35.193.215.35 5000
+
+---
+#### Zero
+494
+Zero letters, zero numbers, zero underscores, zero builtins, and zero hope of escaping
+
+Author: SteakEnthusiast
+
+nc 35.222.133.12 5000
+
+---
+### crypto
+#### Clever Thinking
+442
+I think that Diffie-Hellman is better with some curves, maybe elliptic ones. Let's share a secret!
+
+Wrap the secret (which is a point) in uoftctf{(x:y:z)}, where (x:y:z) are homogeneous coordinates.
+
+Author: Phoenix
+
+---
+#### Export Grade Cipher
+500
+This "state of the art"™ cipher can be exported to your enemies without restriction.
+
+Author: nullptr
+
+nc 0.cloud.chals.io 23753
+
+---
+#### Pianoman
+324
+Windy, a piano prodigy, believes that RSA encryption may not provide sufficient security to safeguard his invaluable piano mastery secrets. So, he uses his musical talents to add another layer of security to the RSA encryption scheme. Now, no one will be able to figure out his secrets!
+
+Note: The flag is UofTCTF{plaintext}.
+
+Author: XiaoXiangjiao
+
+---
+#### repeat
+100
+I'm a known repeat offender when it comes to bad encryption habits. But the secrets module is secure, so you'll never be able to guess my key!
+
+Author: SteakEnthusiast
+
+---
+#### Wheel Barrow
+442
+A wheelbarrow ran over the flag. Can you fix it?
+
+Please wrap the flag in uoftctf{}. Please keep the $ in the flag when submitting.
+
+Author: notnotpuns
+
+---
+### reverse
+#### All Worbled Up
+493
+last time we had a worbler, it failed miserably and left everyone sad, and no one got their flags. now we have another one, maybe it'll work this time?
+
+output:
+```
+
+                      _     _             
+                     | |   | |            
+  __      _____  _ __| |__ | | ___ _ __   
+  \ \ /\ / / _ \| '__| '_ \| |/ _ \ '__|  
+   \ V  V / (_) | |  | |_) | |  __/ |     
+    \_/\_/ \___/|_|  |_.__/|_|\___|_|     
+                                          
+==========================================
+Enter flag: *redacted*
+Here's your flag:  a81c0750d48f0750
+Author: cartoonraccoon
+```
+
+Unlock Hint for 0 points:
+try not to byte off more than you can chew! what does your code look like?
+
+---
+#### CEO's Lost Password
+499
+Hello there brave programmer!
+
+I am the CEO of TotallySecureBank™, I have a lot of money in my bank account but I forgot my password! My username is admin and I have $100000 in my account.
+
+If you could recover my account you can use my password as a flag (flag would be uoftctf{MyPasswordHere})
+
+You can try the bank software by running java -jar BankChallenge.jar and use the admin user user with the password
+
+Author: Ido
+
+---
+#### CSS Password
+480
+My web developer friend said JavaScript is insecure so he made a password vault with CSS. Can you find the password to open the vault?
+
+Wrap the flag in uoftctf{}
+
+Make sure to use a browser that supports the CSS :has selector, such as Firefox 121+ or Chrome 105+. The challenge is verified to work for Firefox 121.0.
+
+Author: notnotpuns
+
+---
+#### Love Debug
+500
+If you send this to someone, you'll be dumped... unless it's someone who knows a thing or two about reverse engineering...
+
+Side Note: A love letter (https://en.wikipedia.org/wiki/ILOVEYOU) is what inspired the author to become a hacker.
+
+Unlock Hint for 0 points
+if you see awww on the output, your input is the correct flag. if you see nope, please try again
+
+---
+#### Random Maze
+499
+a little maze for you! just don't get lost! :3 remember, if you end up somewhere that doesn't look right, it probably isn't!
+
+free hint: the entire flag is lower-alphanumeric ASCII.
+
+Author: cartoonraccoon
+
+Unlock Hint for 0 points
+you're a l33t h4xxor aren't you? i'm sure you can figure it out.
+
+---
+### pwn
+#### baby-shellcode
+326
+This challenge is a test to see if you know how to write programs that machines can understand.
+
+Oh, you know how to code?
+
+Write some code into this program, and the program will run it for you.
+
+What programming language, you ask? Well... I said it's the language that machines can understand.
+
+Author: drec
+
+nc 34.28.147.7 5000
+
+---
+#### basic-overflow
+176
+This challenge is simple.
+
+It just gets input, stores it to a buffer.
+
+It calls gets to read input, stores the read bytes to a buffer, then exits.
+
+What is gets, you ask? Well, it's time you read the manual, no?
+
+man 3 gets
+
+Cryptic message from author: There are times when you tell them something, but they don't reply. In those cases, you must try again. Don't just shoot one shot; sometimes, they're just not ready yet.
+
+Author: drec
+
+nc 34.123.15.202 5000
+Unlock Hint for 0 points
+If you don't have the manual in your machine, you can enter the command in google to read it online :)
+
+Unlock Hint for 0 points
+There are a lot of nice ways to see how the program works!
+
+There's IDA (very expensive software!) Ghidra is a free one, made by the NSA And there's good old objdump, a lightweight disassembler
+
+Why don't you try one of these while you're waiting for output?
+
+---
+#### nothing-to-return
+444
+Now this challenge has a binary of a very small size.
+
+"The binary has no useful gadgets! There is just nothing to return to!"
+
+nice try... ntr
+
+Author: drec
+
+nc 34.30.126.104 5000
+
+---
+#### patched-shell
+371
+Okay, okay. So you were smart enough to do basic overflow huh...
+
+Now try this challenge! I patched the shell function so it calls system instead of execve... so now your exploit shouldn't work! bwahahahahaha
+
+Note: due to the copycat nature of this challenge, it suffers from the same bug that was in basic-overflow. see the cryptic message there for more information.
+
+Author: drec
+
+nc 34.134.173.142 5000
+
+---
+### iot
+#### Baby's First IoT
+Flag 1 - Here is an FCC ID, Q87-WRT54GV81, what is the frequency in MHz for Channel 6 for that device? Submit the answer to port 3895. 
+
+Flag 2 - What company makes the processor for this device? https://fccid.io/Q87-WRT54GV81/Internal-Photos/Internal-Photos-861588. Submit the answer to port 6318. 
+
+Flag 3 - Submit the command used in U-Boot to look at the system variables to port 1337 as a GET request ex. http://35.225.17.48:1337/{command}. This output is needed for another challenge. 
+
+Flag 4 – Submit the full command you would use in U-Boot to set the proper environment variable to a /bin/sh process upon boot to get the flag on the webserver at port 7777. Do not include the ‘bootcmd’ command. It will be in the format of "something something=${something} something=something" Submit the answer on port 9123. 
+
+Flag 5 - At http://35.225.17.48:1234/firmware1.bin you will find the firmware. Extract the contents, find the hidden back door in the file that is the first process to run on Linux, connect to the backdoor, submit the password to get the flag. Submit the password to port 4545. 
+
+Flag 6 - At http://35.225.17.48:7777/firmware2.bin you will find another firmware, submit the number of lines in the ‘ethertypes’ file multiplied by 74598 for the flag on port 8888. 
+
+Hint: If there is an issue with submitting an answer with a challenge, try including newlines and null characters. For example: ‘printf 'answer\n\0' | nc 35.225.17.48 port’ 
+
+---
+## 240120_mapnactf
+### web
+#### Novel Reader 2
+
+Submit the second flag of "Novel Reader" here
+
+---
+#### Flag Holding
+
+Hopefully you know how web works...
+
+http://18.184.219.56:8080/
+
+---
+#### Advanced JSON Cutifier
+
+My homework was to write a JSON beautifier. Just Indenting JSON files was too boring that's why I decided to add some features to my project using a popular (More than 1k stars on GitHub!! ) library to make my project more exciting.
+
+Important: You can't read any file other than /flag.txt on the remote environment.
+
+http://3.64.250.135:8005
+
+---
+#### Novel reader
+
+We have many fun novels for ya...
+
+http://3.64.250.135:9000
+
+---
+#### Purify
+
+I think I downloaded the wrong DOMPurify.
+
+Website: http://91.107.157.58:7000/
+Admin bot: http://91.107.157.58:7001/
+
+---
+#### Gimme Content Type
+
+I got your csp from asisctf 2023 finals, now gimme your content type!
+
+Hint: app.alert
+
+google-chrome '--unsafely-treat-insecure-origin-as-secure=http://91.107.157.58:8000'
+website: http://91.107.157.58:8000
+admin bot: http://91.107.157.58:8001
+
+---
+### forensics
+#### PLC I
+ 
+The MAPNA CERT team has identified an intrusion into the plant's PLCs, discovering a covert message transferred to the PLC. Can you uncover this secret message?
+
+---
+#### PLC II
+
+After extensive investigations, the MAPNA forensics team discovered that the attackers attempted to manipulate the PLC time. Please identify the precise time in the following format:
+
+year:month:day:hour:minute:second:millisecond
+
+The flag is MAPNA{sha256(datetime)}.
+
+---
+#### Tampered
+
+Our MAPNA flags repository was compromised, with attackers introducing one invalid flag. Can you identify the counterfeit flag?
+
+Note: Forgot the flag format in the rules pages, just find the tampered one.
+
+You are not allowed to brute-force the flag in scoreboard, this will result in your team being blocked.
+
+---
+#### Mitrek
+
+In the MAPNA field, a malicious traffic, was intercepted, with an unidentified protocol. Investigators suspect file transmission. Seek secret message.
+
+Note: The file is updated, please download again.
+
+---
+#### JigBoy
+
+Jigboy, the superhero, possesses the remarkable ability to reel in colossal fish from the depths of the deep blue sea.
+
+---
+#### XXG
+
+Welcome to the Forensics XXG challenge! Our investigator stumbled upon a mysterious file. Can you uncover the hidden message?
+
+---
+### crypto
+#### What next?
+
+In this task, we explore the realm of cryptographically secure random generators, where predicting the next output is deemed impossible. Are you ready to test your luck and skill?
+
+---
+#### What next II?
+
+Again, in this task, we explore the realm of cryptographically secure random generators, where predicting the next output is deemed impossible. Are you ready to test your luck and skill this time?
+
+---
+#### Be Fast
+
+Rapid mastery of breaking symmetric encryption, deciphering codes with precision, and navigating complexities with unprecedented speed and efficiency are requirements for every professional cryptographer. So, be fast.
+
+nc 3.75.180.117 37773
+
+---
+#### GLNQ
+
+Solving the DLP in matrices over a finite field is no trivial task. What are your thoughts on this GLNQ belief?
+
+Note: flag = MAPNA{m}, Don't convert m to bytes.
+
+---
+#### Shibs
+
+Dive into a cryptographic maze, untangle intricate codes, and unleash your creativity in this unique CTF experience by conquering the Shibs challenge.
+
+---
+#### Isogenies
+
+Explore the strange world of isogenies in cryptosystems to uncover the secret flag.
+
+---
+### reverse
+#### Compile Me!
+
+Compile the given code and execute the resulting binary, passing the source code file as an argument, to obtain the flag.
+
+```
+Welcome,to,MAPNA,CTF,Year_2k24;main(){for(++CTF;to=-~getchar();Welcome+=11==to,Year_2k24++)CTF=to>0xe^012>to&&'`'^to^65?!to:!CTF?++MAPNA:CTF;printf("MAPNA{%4d__%d__%d_!}\n",(to+20)^(Welcome+24)+1390,MAPNA+=(!CTF&&Year_2k24)+10,Year_2k24+31337);}
+```
+
+---
+#### Locate Me!
+
+Guys, in this reverse engineering challenge, your task is to skillfully locate me within the intricate digital labyrinth.
+
+nc 95.216.191.248 13770
+
+---
+#### Time Traveler
+
+Enjoy the vintage with a time traveler!
+
+Note: Do not forget to add MAPNA at the beginning of flag!
+
+---
+#### Heaverse
+
+Heaverse, a paradoxical binary that defies logic: reverse it without reversing it. Can you navigate its enigmatic depths?
+
+Flag format: MAPNA{CAPITAL_WORDS_THAT_YOU_FIND}
+
+---
+#### Prism
+
+Prism has implemented a sophisticated anti-reverse engineering technique in the binary. Can you bypass this mechanism to obtain the flag?
+
+---
+#### Tetim
+
+Begin on a formidable journey into the realm of Zig reverse with tetim, a challenging and intricate reverse engineering task. Unusual for CTFs, it features Zig language binaries and promises a riveting experience, designed for those seeking revenge at MAPNA CTF.
+
+---
+### pwn
+#### ninipwn
+
+pwn ^ pwn ^ pwn ^ pwn ^ pwn ^ pwn
+
+nc 3.75.185.198 7000
+
+---
+#### U2S
+
+I just changed S2U to U2S... This shouldn't lead to scary things right?
+
+nc 3.75.185.198 6666
+
+---
+#### Protector
+
+my flag is protected! what are you gonna do
+
+nc 3.75.185.198 10000
+
+---
+#### Buggy Paint
+I wrote a paint for myself but It seems kinda buggy
+
+nc 3.75.185.198 2000
+
+---
+## 240120_knightctf
+## 240126_ctrwctf
+## 240202_dicectf
+## 240301_vishwactf
+## 240308_pearlctf
+## 240316_dubhectf
+## 240629_uiuctf
