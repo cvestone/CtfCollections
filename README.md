@@ -2211,3 +2211,113 @@ I used multithreading to check your flag so much slower that it almost feels lik
 
 ---
 #### Pwnymaps
+483 Passengers
+30 Solves
+Author: spicypete
+
+My friend gave me his address, but the coords he gave are n dimensional... Can you help me setup my GPS to find him?
+
+Once you pass all checks, you need to plot all the x, y points in order as a line plot in order to reveal the flag. The flag consists of three valid words seperated by underscores, wrapped in the flag format, and all lowercase.
+
+---
+#### Summarize
+381 Passengers
+161 Solves
+Author: Nikhil
+
+All you have to do is find six numbers. How hard can that be?
+
+---
+#### tooooo fancy 😏
+497 Passengers
+6 Solves
+Author: spicypete
+
+I really hope this challenge TiCkLes your fancy! It is my most cursed challenge yet.
+
+---
+#### Goose Chase
+440 Passengers
+93 Solves
+Author: ronanboyarski
+
+The threat group GREGARIOUS GOOSE has hacked into SIGPwny servers and stolen one of our flags! Can you use the evidence to recover the flag?
+
+WARNING: This challenge contains malware that may read images on your hard disk. Ensure that you do not have anything sensitive present.
+
+---
+#### Lost Canary
+482 Passengers
+32 Solves
+Author: spicypete
+
+Damn, I lost my canary at one of the train stations. Can you help me find it?
+
+`ncat --ssl lost-canary.chal.uiuc.tf 1337`
+
+This is a rev/pwn challenge, not just rev.
+
+---
+#### Wild Goose Chase
+494 Passengers
+12 Solves
+Author: ronanboyarski
+
+The threat group GREGARIOUS GOOSE has hacked into SIGPwny servers and stolen one of our flags! Can you use the evidence to recover the flag? Now with 100% more goose.
+
+WARNING: This challenge contains malware that may read images on your hard disk. Ensure that you do not have anything sensitive present.
+
+---
+### pwn
+#### Rusty Pointers
+480 Passengers
+36 Solves
+Author: Surg
+
+The government banned C and C++ in federal software, so we had to rewrite our train schedule management program in Rust. Thanks Joe Biden. Because of government compliance, the program is completely memory safe.
+
+`ncat --ssl rustyptrs.chal.uiuc.tf 1337`
+
+---
+#### Syscalls
+398 Passengers
+143 Solves
+Author: Nikhil
+
+You can't escape this fortress of security.
+
+`ncat --ssl syscalls.chal.uiuc.tf 1337`
+
+---
+#### Syscalls 2
+496 Passengers
+8 Solves
+Author: YiFei Zhu
+
+I made it harder ;)
+
+Hint: It's not a bug, it's a feature!
+
+`socat file:$(tty),raw,echo=0 openssl:syscalls-2.chal.uiuc.tf:1337`
+
+---
+#### Backup Power
+454 Passengers
+75 Solves
+Author: Pete, Julie
+
+Can you turn on the backup generator for the SIGPwny Transit Authority?
+
+`ncat --ssl backup-power.chal.uiuc.tf 1337`
+
+---
+#### pwnymalloc
+461 Passengers
+65 Solves
+Author: Akhil
+
+i'm tired of hearing all your complaints. pwnymalloc never complains.
+
+`ncat --ssl pwnymalloc.chal.uiuc.tf 1337`
+
+---
