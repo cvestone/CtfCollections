@@ -1481,6 +1481,141 @@ nc 3.75.185.198 2000
 
 ---
 ## 240120_knightctf
+### net
+#### Vicker_IP(the first challenge)
+Hi! It's good to see you again in my networking series. There are total 18 challenges in this series & based on real life events of how can a server be compromised. Please download the attachment which will be used to answer all the questions. Don't make it too complex. Just keep it simple. Hope you'll solve them all. Wish you all a very good luck.
+
+Scenario: Recently one of Knight Squad's asset was compromised. We've figured out most but need your help to investigate the case deeply. As a SOC analyst, analyze the pacp file & identify the issues.
+
+So let's start with the basic.
+
+---
+#### API_Key
+What's the API Key?
+
+Please use the attachment of the first challenge.
+
+---
+#### Admin_Flag
+Can you find the Admin Flag of the web server.?
+
+Please use the attachment of the first challenge.
+
+---
+#### BackDoor
+What is the backdoor file name?
+
+Please use the attachment of the first challenge.
+
+---
+#### Basic_Enum
+What tool did the attacker use to do basic enumeration of the server?
+
+Please use the attachment of the first challenge.
+
+---
+#### CVE_ID
+What's the CVE id for the vulnerable service?
+
+Please use the attachment of the first challenge.
+
+---
+#### Confidential
+There's something confidential. Can you find it?
+
+Please use the attachment of the first challenge.
+
+---
+#### DB_Details
+What is the database username & databasename?
+
+Please use the attachment of the first challenge. And keep in mind that the file you have is the backup file. There might be an update to the database.
+
+---
+#### Famous_Tool
+The attacker used a popular tool to gain access of the server. Can you name it?
+
+Please use the attachment of the first challenge.
+
+---
+#### Famous_Tool_2
+What tool did the attacker use to identify the vulnerability of edit task page?
+
+Please use the attachment of the first challenge.
+
+---
+#### Hidden_File
+What's the flag of the hidden file?
+
+Please use the attachment of the first challenge.
+
+---
+#### Hidden_Page
+There was a hidden page which was only accessible to root & was removed from the web app for security purpose. Can you find it?
+
+Please use the attachment of the first challenge.
+
+---
+#### PORT
+What was the port number of the reverse shell of the server?
+
+Please use the attachment of the first challenge.
+
+---
+#### Something_Interesting
+There's something interesting. Can you find it?
+
+Please use the attachment of the first challenge.
+
+---
+#### Super_Admin
+What is the super admin password in the web application?
+
+---
+#### Vuln
+What was the vulnerability on the edit task page & what parameter was vulnerable?
+
+Please use the attachment of the first challenge.
+
+---
+#### Vulnerable_Service
+What service was vulnerable to the main server?
+
+Please use the attachment of the first challenge.
+
+---
+### stego
+#### Oceanic
+The ocean's beauty is in its clear waters, but its strength lies in its dark depths.
+
+---
+### crypto
+#### Random_Shamir_Adleman
+This standard cipher comes with a twist!
+
+---
+### reverse
+#### Dragons_Binary
+In the mystical land of Eldoria, a fierce dragon had captured the kingdom's most precious treasure, hiding it behind a magical binary. The bravest knight of the realm, Sir Emeric, known for both sword and wit, embarked on a quest to retrieve the treasure. To succeed, he must reverse the dragon's binary. As Sir Emeric's trusted apprentice in "Dragon's Binary" you are tasked with solving the cipher to reveal the hidden treasure and help vanquish the dragon's spell. Your journey is filled with mystery and danger, where only the sharpest mind can prevail. . Right Passcode is the flag.
+
+---
+#### Knight_Armoury
+In a realm where magic and technology merge, lies the Knight Armoury, home to the legendary "Sword of Bytes." Forged by Knight Squad, this digital sword holds immense power. Your mission: reverse the ancient binary guarding the Armoury and claim the sword to become the protector of the digital kingdom. Only the wisest and most skilled in reverse engineering can succeed. Are you ready to embark on this epic journey?
+
+---
+#### Saphira_and_the_Valyrian_Sword
+In a land shadowed by the dragon Saphira, legends whispered of a powerful weapon, the Valyrian sword, lost in the mists of time. It was said that only those who could reverse the ancient binary, a mystical code from the forgotten ages, would uncover the sword's location. Brave challengers, your quest beckons you to unravel this riddle. Succeed, and the Valyrian sword shall be yours to wield against Saphira, bringing an end to her reign. The destiny of the land rests in your hands.
+
+---
+### pwn
+#### Get_The_Sword
+Can you get the sword ?
+
+---
+#### win..._win..._window...
+You are a skilled hacker known for your expertise in binary exploitation. One day, you receive an anonymous message challenging your abilities. The message contains a mysterious binary file. Now you decide to analyze the file.
+
+---
 ## 240126_ctrwctf
 ## 240202_dicectf
 ### web
@@ -1980,9 +2115,379 @@ Downloads
 ## 240301_vishwactf
 
 ## 240308_pearlctf
+### web
+#### learn_HTTP
+web http easy begula
 
+I made a simple web application to teach you guys how HTTP responses work, I hope you enjoy :)
+
+---
+#### steps_to_success
+web php wasm medium begula
+
+A journey only brave can travel.
+
+---
+### misc
+#### Circuits
+medium n0tsane
+
+My electronics engineer friend is working on some secret project.
+
+However, he deleted the documents containing the circuit designs by mistake and needs to recover them from a set of suitably modified source files. Could you help him in this?
+
+Wrap the flag in pearl{}.
+
+---
+#### TooRandom
+medium kannaya
+
+Looks like they are random, aren't they?
+
+---
+#### b4by_jail
+easy e4stw1nd
+
+Just a baby jail. Nothing special!
+
+---
+#### i_2_1
+medium Masrt
+
+after 4 years of college, I finally got to learn complex analysis. I also took PDE that semester ¯(ツ)/¯
+
+---
+#### jail_time
+medium e4stw1nd
+
+You just need to escape the jail. How hard can that be?
+
+---
+### forensic
+#### pcap_busterz_1
+packet-analysis easy Pr0meth3u5
+
+I have intercepted a pcap file on the dark web between unknown agents. Help me decrypt it and find out what they're upto!!
+
+---
+#### pcap_busterz_2
+medium drago steg
+
+This time you ran across their activities in an illegal game server using a suspicious protocol, analyze the pcap and get the flag!!
+
+---
+#### beautiful_song
+audio easy begula
+
+I hate frequencies which are multiple of 50, they ruin the song.
+
+---
+#### WiFi_broken
+easy e4stw1nd
+
+I suspect my former friend is upto something wrong. I tried to access his network but for that, I need the password to his wifi. Enclose the password in pearl{} when you find it.
+
+---
+#### SoundScape
+forensics medium Pr0meth3u5 steg
+
+I requested my friend who was just at the beach to send me some photos of the ocean. Instead, he handed me audio files and stated that this was the image. Please find the image for me and in return, I'll give you the flag.
+
+---
+#### Excel_Mayhem
+easy kannaya
+
+This excel sheet is troubling me a lot !! help me find the flag . Enclose the flag in pearl{}
+
+---
+### osint
+#### lost_letter
+kannaya easy
+
+Now that you've discovered the letter, it falls upon you to ensure its safe journey to its intended destination. Enclose city name and state name in lower case alphabets seperated with underscore in pearl{}
+
+---
+### blockchain
+#### Heist
+medium SRPG
+
+A notorious hacker group known as “The Cipher Syndicate” has stolen sensitive data and hidden it within a smart contract on the Ethereum blockchain. The stolen information is crucial for a covert operation, and your team has been tasked with retrieving it. Your mission is to crack the safe (smart contract) and extract the concealed data. The smart contract address where the data is stored is 0xE2f01984b5B70d4b1Dae98e060f4eA4D96824120.
+
+---
+#### Transaction_Hash
+SRPG easy
+
+Welcome to Mumbai, the city of crime and chaos. You are a hacker who wants to infiltrate the network of a notorious gang leader, Franklin Clinton. He has deployed a smart contract on a layer-two (L2) scaling platform for the Ethereum blockchain that contains some information about his associates, such as Markus and Trevor Philips. The contract address is 0x9562029A39BF4E0F1e2811a97f0962B70E97e7c8. You need to interact with the contract and decode the output.
+
+`Get to this contract address to get the hash value.`
+
+---
+### crypto
+#### 3_spies
+4darsh easy
+
+The Government intercepted three spies named Rivest, Shamir, Adleman.The content of these messages could be vital for national security,Decrypt their comms!!
+
+---
+#### Babys_Message_Out
+easy s4ych33se!
+
+"Baby's first steps are important, so I increased the number of primes"
+
+---
+#### Bit_War
+binary cyb3rpunk_b4ddi3
+
+linear feedback shift of bits ?
+
+---
+#### Moments_in_The_Making
+realworld a gopher hard
+
+It's March but its raining like June... anyway, you just found this cool interface
+
+ps: these peeps start their comms with a Good Morning
+
+---
+#### Rick_Roll
+easy SRPG
+
+I hope you know your crypto basics.
+
+---
+#### Security++
+easy n0tsane
+
+More keys = More security. Prove me wrong!
+
+---
+#### syntelestis
+equations Masrt hard
+
+naughtyb0y: This is impossible if you haven't realised.
+
+masrt: It's just equation solving, how hard can it be?
+
+---
+#### three_letter_acronyms
+coding theory medium masrt
+
+I've been delving into Matrix Product Codes and found a novel way to hide intriguing "stuff". Care to uncover the mystery?
+
+Note: flag is lowercase and add underscores between words Example: if you found the words "BIG SUMMER BLOWOUT", then flag is pearl{big_summer_blowout}
+
+---
+### game
+#### Baers_Important_Invention
+xbox hard masrt
+
+Games are wonderful, aren't they? Here's the first build copy of W.o.W (not World of Warcraft), hope you are able to uncover the secrets. Install any libraries if required~
+
+made with ♡ by Team Orange
+
+---
+#### Guesso
+medium Al13n
+
+My friend is consistently engrossed in reading Google News, and lately, he has been incessantly discussing the concept of dimensions—specifically, a staggering 300 of them. He fervently insists that words can be represented as vectors, a notion that seems perplexing at best. In the midst of his enthusiasm, he has even developed a game centered around guessing words. Can you solve his game?
+
+---
+### reverse
+#### Help_Me
+medium naughtyb0y
+
+This doesn't make sense at all, How is this file even getting executed? Oh you got something useful? Now keep searching more. Remember the journey matters more than the destination
+
+---
+#### Notty_Vault_Machine
+hard naughtyb0y
+
+Some C + assembly + some Java and you get a super secure vault made Just-In-Time before the CTF.
+
+---
+#### byteme
+python bytecode medium TheAlpha
+
+I know you are a python expert, but can you reverse this?
+
+---
+#### flensing
+reversing docker easy TheAlpha
+
+Process this whale to get floating gold
+
+---
+#### input_validator
+easy v1per
+
+Can you find the correct input?
+
+---
+#### not_so_easy
+rev medium v1per
+
+Reversing a binary is pretty easy innit? But what if there are 200 of them?
+
+---
+#### rusty_proxy
+rev rust hard begula
+
+I developed a proxy for my organisation in rust to complicate things, can you test it's complication?
+
+---
+### pwn
+#### Adventure
+easy Naughtyb0y
+
+Let us go on a quest for adventure and thrill!
+
+---
+#### God_of_War
+hard v1per
+
+Ares, the God of war has sent his champion to destroy Athens. Destroy his champion with your own heroes and save the city!
+
+---
+#### Going_Back
+easy s4yCh33se
+
+Somedays, I just want to return......
+
+---
+#### The_Machinist
+medium Al13n
+
+Step into the prestigious world of culinary excellence where only the elite prevail. Your culinary prowess is renowned, but now, a challenge awaits that will truly test your skills. Can you create a masterpiece sauce worthy of an elite chef?
+
+---
+#### babyheap
+pwn naughtyb0y easy
+
+Just a normal note taking app...
+
+---
+#### flag_finder
+medium Naughtyb0y
+
+I am wondering can you find the needle in the haystack (Not with your eyes but just binary)???
+
+---
+#### passphrase
+medium v1per
+
+My friend created this security check for a file he didn't want me to see. I need a passphrase to unlock it. I tried everything but it seems impossible. Can you help me get the file?
+
+---
 ## 240316_dubhectf
+### web
+#### Javolution
+A modern java challenge prepared for u ! Bypass it and achieve RCE !
 
+---
+#### Tagebuch
+Ich habe eine Tagebuch-Website von jemand anderem kopiert, wie könnte das ein Problem sein?
+
+---
+#### Wecat
+没有人比我更会网聊！
+
+PoW脚本可参考：
+
+https://github.com/KingBridgeSS/ctf-pow-for-docker-compose/blob/main/client.py
+
+---
+### misc
+#### Ezswap
+Swap is a kind of magical magic, and I am deeply impressed.
+
+---
+#### authenticated_mess_and_unauthenticated_less
+How can things go wrong when using a proxy server?
+
+---
+#### ezPythonCheckin
+农历新年后的第一个XCTF签到
+
+---
+#### solog
+Do you know xlog? I also wrote a solog, but it seems that I forgot to delete some test code…
+
+你知道 xlog 吗？我也写了一个 solog，但是我好像忘记删掉一些测试代码了。。。
+
+---
+### crypto
+#### MDH
+none
+
+---
+#### Sign_in
+嗯没错 还是Common Prime RSA
+
+---
+#### Simple_and_simple
+真是简简又单单啊，你们有做过这样简单的题吗？
+
+---
+#### ezcrc
+just a ezcrc :)
+
+---
+### reverse
+#### Destination
+人死后会去向何方？
+
+---
+#### Moon
+…月者，人之魂也。 众云月之美。 然时过境迁，汝复视之，其面几何哉？ 心之所属，魂之所归，皆尽破碎四散。 终焉之刻，吾等皆化身为月，是以不堪凡躯也。
+
+---
+#### VMT
+Do you know what VMT is? Can you find the strings?
+
+---
+#### babySTL
+A baby Problem
+
+---
+#### cvm
+none
+
+---
+#### ezVK
+A simple vk program
+
+---
+#### fffffragment
+none
+
+---
+### pwn
+#### BuggyAllocator
+Tiny allocator for memory allocation and remote code execution.
+
+---
+#### CacheHack
+Hack the Cache
+
+---
+#### DayDream
+none
+
+---
+#### ToySMM
+UEFI SMM U know? : )
+
+---
+#### cvm
+A simple VM
+
+Note: This challenge is completely different from reverse-cvm
+
+---
+#### ggbond
+Who am I?
+
+---
 ## 240629_uiuctf
 ### Web
 #### Log Action
