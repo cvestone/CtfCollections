@@ -1483,7 +1483,731 @@ nc 3.75.185.198 2000
 ## 240120_knightctf
 ## 240126_ctrwctf
 ## 240202_dicectf
+### web
+#### dicedicegoose
+NotDeGhost  445 solves / 105 points
+
+Follow the leader.
+
+[ddg.mc.ax](https://ddg.mc.ax/)
+
+---
+#### funnylogin
+strellic    269 solves / 109 points
+
+can you login as admin?
+
+NOTE: no bruteforcing is required for this challenge! please do not bruteforce the challenge.
+
+[funnylogin.mc.ax](https://funnylogin.mc.ax/)
+
+Downloads
+
+[funnylogin.tar.gz](https://static.dicega.ng/uploads/6beb05ec61c3436cf1e0d566f56e786e42bd8e2fe788404169cae34c368929e4/funnylogin.tar.gz)
+
+---
+#### gpwaf
+larry   180 solves / 115 points
+
+i made a ejs renderer, its 100% hack proof im using gpt to check all your queries!
+
+please note that the backend for this challenge is not the same as the one given to avoid leaking our API key, but the queries to the OpenAI API are exactly the same.
+
+(Instancer)[https://instancer.mc.ax/challenge/gpwaf]
+
+Downloads
+
+(gpwaf.tar.gz)[https://static.dicega.ng/uploads/bd158456c1a33a1d574c7df5400636d86739a738b12889e3da13f52d7e2282c1/gpwaf.tar.gz]
+
+---
+#### calculator
+BrownieInMotion     59 solves / 119 points
+
+beep boop
+
+[calculator.mc.ax](https://calculator.mc.ax/)
+
+[Admin Bot](https://adminbot.mc.ax/web-calculator)
+
+Downloads
+
+[calculator.tar.gz](https://static.dicega.ng/uploads/16b4522ba581fddb656d4ab96aa5bdeeb6ed1081d3673d53df70eac4517bc36f/calculator.tar.gz)
+
+---
+#### calculator-2
+BrownieInMotion     33 solves / 135 points
+
+beep boop, again
+
+[calculator-2.mc.ax](https://calculator-2.mc.ax/)
+
+[Admin Bot](https://adminbot.mc.ax/web-calculator-2)
+
+Downloads
+
+[calculator.tar.gz](https://static.dicega.ng/uploads/402ff2b24f5f48c6528b3dd8e647b7b4be78515608d8575c221080bd09b774f8/calculator.tar.gz)
+
+---
+#### another-csp
+larry   16 solves / 272 points
+
+i've made too many csp challenges, but every year another funny one comes up.
+
+[Instancer](https://instancer.mc.ax/challenge/another-csp)
+
+Downloads
+
+[another-csp.tar.gz](https://static.dicega.ng/uploads/54f5cab71233e0cd2833f4ba08029e96a1f7ea3a09844cfc835a0067677e7e56/another-csp.tar.gz)
+
+---
+#### safestlist
+strellic    2 solves / 481 points
+
+[safelist](https://2022.ctf.sekai.team/challenges/#Safelist-47) had some flaws, but now they're fixed! It's now perfectly secure, perfect for all your list needs!
+
+Hint: Flag is in the format `dice{[a-z]+}`
+
+[Instancer](https://instancer.mc.ax/challenge/safestlist)
+
+Downloads
+
+[safestlist.tar.gz](https://static.dicega.ng/uploads/09dbafb7e5c013a812d95e00d8bc50f0bfbaad8656ab0fa8ed49020af880985f/safestlist.tar.gz)
+
+---
+#### burnbin
+strellic      1 solve / 500 points
+
+The most secure place to create and store private pastes that can only be read once.
+
+[Instancer](https://instancer.mc.ax/challenge/burnbin)
+
+Downloads
+
+[burnbin.tar.gz](https://static.dicega.ng/uploads/dd6c0d621b84cffd284b41e5071e0f16efcf7711aa5192e1fb87396e23c82764/burnbin.tar.gz)
+
+---
+### misc
+#### welcome
+defund      947 solves / 1 point
+
+Join us at [discord.gg/dicectf](https://discord.com/invite/dicectf) and read the `#rules` channel to get the flag!
+
+---
+#### survey
+defund      253 solves / 1 point
+
+Thanks for participating in DiceCTF Quals! Fill out this survey to get the flag [here](https://forms.gle/x8zoEkARneGFcJwJA). We hope to see you in NYC for Finals!
+
+---
+#### zshfuck
+arxenix     107 solves / 127 points
+
+may your code be under par. execute the `getflag` binary somewhere in the filesystem to win
+
+`nc mc.ax 31774`
+
+Downloads
+
+[jail.zsh](https://static.dicega.ng/uploads/53c6360b9ea7e5dba86f1d8d600de61b8601c1897b651eb88920906ff738f651/jail.zsh)
+
+---
+#### unipickle
+kmh     68 solves / 144 points
+
+pickle
+
+`nc mc.ax 31773`
+
+Downloads
+
+[unipickle.py](https://static.dicega.ng/uploads/96309f792c0265d8f89a886cbf610816bedf88184e5ec4302ae46f6f7413de7e/unipickle.py)
+
+---
+#### diligent-auditor
+aplet123    15 solves / 281 points
+
+I hired an auditor to secure my python interpreter!
+
+`nc mc.ax 31130`
+
+Downloads
+
+[Dockerfile](https://static.dicega.ng/uploads/edc4cd72128454edae032c61c2e1101c5e83847737fde971fe977284955d2590/Dockerfile)
+[jail.py](https://static.dicega.ng/uploads/c20e734a2bff72d5ea131c84c027fcf84027bc78ed461b5161333ab03f9ab0e2/jail.py)
+
+---
+#### spellbound
+orion, hpmv     9 solves / 347 points
+
+(adj.) spell•bound (spel'bound') : held by or as if by a spell.
+
+Submit your APK here: [spellbound.mc.ax](https://spellbound.mc.ax/)
+
+The evaluation process is as follows. A fresh Android emulator is started using the Docker image `us-docker.pkg.dev/android-emulator-268719/images/30-google-x64:30.1.2` and the DictionaryService, DictionaryApp, and your APK are installed. It then launches your APK with the command `am start -n com.dicectf2024.attackerapp/com.dicectf2024.attackerapp.MainActivity` waits for 20 seconds, and then returns you the output of `logcat -d dicectf:V *:S` Make sure you sign your APK, or else it will not install.
+
+Your goal is to access the random flag generated by the DictionaryService, and log it to logcat so that you can see the random flag. Then, **exchange** that flag for a real flag using the "get flag" page. The random flag is different for every submission. You must submit the correct random flag generated for that submission in order to get the real flag.
+
+**DO NOT** attack anything outside of the Android emulator. This includes the CTF infrastructure, the UI for submitting APKs, viewing the results, etc. Also, the Android emulator does not have any network access. This is purely an Android challenge.
+
+Downloads
+
+[spellbound.zip](https://static.dicega.ng/uploads/b407261c395d4fb408c09aec531ef6344690e1f56150d659b68cef71603b6338/spellbound.zip)
+
+---
+#### floordrop
+hpmv, orion     8 solves / 362 points
+
+Ever heard of airdrops? Well, we're doing a floordrop. We're dropping the flag on the floor. Go pick it up.
+
+This challenge happens on DiceChain, an Ethereum-compatible network started using go-ethereum with the genesis.json provided to you. You may start a challenge attempt at any time by connecting to the provided nc.
+
+During each challenge attempt,
+
+- The server will generate a challenge for you to solve and send a transaction that calls `setChallenge(the challenge)` on the ProofOfWork contract.
+- Two seconds later, the server will send another transaction that calls `expireChallenge()` on the same contract.
+- Your goal is to solve the challenge and submit the solution by calling `solveChallenge(the solution encoded in bigendian bytes, random nonce)`, before the challenge expires. A script to solve the challenge has been provided to you in `solve.py`.
+- If you submit the correct solution before the challenge expires, a flag will be printed in the same nc session.
+You're encouraged to use the mock challenge (menu option 1) to familiarize yourself with the challenge setup. Also, to help with your understanding, an example series of transactions that would yield a successful solve can be found in block [154](https://floordrop.hpmv.dev/block/154).
+
+Links:
+
+Block explorer: https://floordrop.hpmv.dev/
+RPC: https://floordrop-rpc.hpmv.dev/
+Faucet: floordrop-faucet.mc.ax (use to get some free DICE!).
+`nc mc.ax 32123`
+
+Downloads
+
+[floordrop.zip](https://static.dicega.ng/uploads/9bc59f8ff00ae70df6b2082da44a17cd4d219c8763bac75effed5f064c3548c5/floordrop.zip)
+
+---
+#### what-a-jpeg-is
+ireland     6 solves / 396 points
+
+I just want a picture of a god-dang Madagascar cat
+
+`nc mc.ax 31373`
+
+Downloads
+
+[challenge.py](https://static.dicega.ng/uploads/21bdd4c2bf7b4bbb1ac53e2181544837f2c8cc26e1d6185864426c358d25b39d/challenge.py)
+---
+#### IRS
+kmh     2 solves / 481 points
+
+The Internal Restrictedpythonexecution Service has established a new automated auditing pipeline. Can you remain undetected?
+
+`nc mc.ax 31337`
+
+Downloads
+
+[irs.c](https://static.dicega.ng/uploads/d08414a0010847008faece0bc12ec4a746693303c1bffc28960fcbbc96a01d64/irs.c)
+[irs](https://static.dicega.ng/uploads/da7e724dfc3d05e77cc3543ea18600c87a1d64ca13f68ad5b575614bf4453085/irs)
+[audit.py](https://static.dicega.ng/uploads/934719eaa4b1598b0a43ebb5ac6ac4244ca6139b0fd5d46cc0f00bef939e8173/audit.py)
+[build.sh](https://static.dicega.ng/uploads/07dd025e37fcb1a54c99bc7d5d266216b33244737b147e108497dea435095029/build.sh)
+[run.sh](https://static.dicega.ng/uploads/94c2bf49a136d49ebef810c73dc638bc1f7c02ac3eea3ba2ea347917d6edda50/run.sh)
+[Dockerfile](https://static.dicega.ng/uploads/e2f9c5fcdffc03011854d942e891b7a15e3216850713f2006cba442b8072badf/Dockerfile)
+
+---
+### crypto
+#### winter
+defund  169 solves / 116 points
+
+A simple implementation of the Winternitz signature scheme.
+
+`nc mc.ax 31001`
+
+Downloads
+
+[server.py](https://static.dicega.ng/uploads/29b30623ffb45231af865eb4fdc3107af3f7fdfd74dd0cbfb50040499b1306b5/server.py)
+
+---
+#### inversion
+ireland     40 solves / 129 points
+
+Have you ever heard of homomorphic encryption?
+
+This is the first part of a two-part challenge.
+
+`nc mc.ax 30662`
+
+Downloads
+
+[server.py](https://static.dicega.ng/uploads/d21a9f4e9e7e1309db34cb55cc2fd532b1569d7e6975f0109ac631a33e680926/server.py)
+[generate.py](https://static.dicega.ng/uploads/474054ee00328796ba5fea387f55189e28073e6b38b9b18953fb71994a71f7b8/generate.py)
+[public.key](https://static.dicega.ng/uploads/14438b31d64c192a29452a151034a336a5e7d3023d57ba8ba9d9039f17419bc6/public.key)
+[x.ctxt](https://static.dicega.ng/uploads/fc06129a397868b96f7d1027a643b2116b84fdda063b1ade4d008d44b4664128/x.ctxt)
+
+---
+#### rps-casino
+clam    94 solves / 131 points
+
+We're opening a new casino! The only game is rock-paper-scissors though...
+
+`nc mc.ax 31234`
+
+Downloads
+
+[server.py](https://static.dicega.ng/uploads/2e41c452ebe2becc669244010d7e463a85a8b7ac202f438b62e36ece701e9b18/server.py)
+
+---
+#### yaonet
+defund      38 solves / 181 points
+
+Key...no, that's just the letters and numbers that were on that little sheet of paper
+
+`ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null yaonet@mc.ax -p 31000 -i id_ecdsa`
+
+Downloads
+
+[id_ecdsa.pub](https://static.dicega.ng/uploads/00c6d0c7a600df0a1771744f580c453be32f98ac31254cb5816326e5f1f52cdf/id_ecdsa.pub)
+[id_ecdsa](https://static.dicega.ng/uploads/014395a0986ead4f3b16432ac00d535967ab89d2b8bb6d49df1c7029d01beb27/id_ecdsa)
+
+---
+#### iinversion
+ireland     1 solve / 250 points
+
+what if we made it good?
+
+This is the second part of a two-part challenge.
+
+`nc mc.ax 30663`
+
+Downloads
+
+[server.py](https://static.dicega.ng/uploads/a4cb25e37e03aa780c803107db7ad493c7442d9604063746a9532e493abcf4a0/server.py)
+[generate.py](https://static.dicega.ng/uploads/2ee93f0d9395207e110e64ebdfe42d8b72e6afdb2a3cad13e3febefb992659a4/generate.py)
+[public.key](https://static.dicega.ng/uploads/14438b31d64c192a29452a151034a336a5e7d3023d57ba8ba9d9039f17419bc6/public.key)
+[x_hard.ctxt](https://static.dicega.ng/uploads/8d363243990e71abf657aeebe9f042eafd0b19eeaea23fcfe90d13a2e702c33e/x_hard.ctxt)
+
+---
+#### pee-side
+gripingberry    10 solves / 334 points
+
+I decided that CSIDH needed a bit more entropy! Now, not only do we have a random starting curve, but also a random point!
+
+`nc mc.ax 30893`
+
+Downloads
+
+[server.py](https://static.dicega.ng/uploads/ee41b4080c441167df905d08ea67bbe22f366ff893456fb072bf0b9fc57d7107/server.py)
+
+---
+#### mea-shor-ment-error
+ireland     0 solves / 500 points
+
+My new quantum computer has no issue running Shor's algorithm, but the readout error is still pretty high.
+
+Downloads
+
+[publickey.pem](https://static.dicega.ng/uploads/a8fa4a4952a67904f8ce9e3bd4dbee2a78813e9ed51e23e129bbbc0972d2d747/publickey.pem)
+[ciphertext.bin](https://static.dicega.ng/uploads/060d67d3fc26db836e3e938ed9f7144601a8280ae3b22887f0b5ae8fbf6013c8/ciphertext.bin)
+[setup.py](https://static.dicega.ng/uploads/5f27077afef03d377296414f9afe9521cc14313152133234225782a2b501c788/setup.py)
+[mea_shor_ment_error.py](https://static.dicega.ng/uploads/1dcc32829569f6c83ef00e2fe3db1a7df3d1a5cdf9e41d0bede65a5d6f4b817b/mea_shor_ment_error.py)
+[shor.txt](https://static.dicega.ng/uploads/44ece12bb0d5024930bd6af52c5ee4586ab493cdc43c2277d1afc3daffc041ce/shor.txt)
+
+---
+#### dicenet
+defund  0 solves / 500 points
+
+AI meets cryptography! DiceNet is a cutting-edge flag checker which leverages multi-party computation to perform secure inference.
+
+There is a bug in the construction described in the papers (see README.txt), which is implemented by swanky. You do not need to comb through the library's code to find the bug. Read the papers!
+
+Hint: what happens when you use a composite modulus?
+
+`./client --model model.json --weights dummy_weights.json --file sheep.png mc.ax:31002`
+
+Downloads
+
+[dicenet.tar.gz](https://static.dicega.ng/uploads/c6c44dd2245a8a51eb9c1f7be572edda2768ebccc2dc00bef399a1abb9d67cb2/dicenet.tar.gz)
+
+---
+### reverse
+#### dicequest
+clubby  107 solves / 127 points
+
+Try 2024's hottest game so far - DiceQuest! Can you survive the onslaught? Custom sprites made by [Gold](https://www.fiverr.com/goldpixela)
+
+note: the flag matches the regex `dice{[a-z_]+}`
+
+Downloads
+
+[game.zip](https://static.dicega.ng/uploads/2770760e8acc3d2eaa6b98b5e9d58dc36b6b6228dd34cd6e9e38f6e1e448cc01/game.zip)
+
+---
+#### pain-plus-plus
+solomon-ucko    69 solves / 144 points
+
+Pain++
+
+I'd recommend reading the x86-64 System V ABI documentation and the libstdc++ source code while attempting this.
+
+Downloads
+
+[pain-plus-plus](https://static.dicega.ng/uploads/143c63fd38568e8708784d504b3dc9382d5e8c77f6b59206f09cc28ecad76ca6/pain-plus-plus)
+
+---
+#### three
+BrownieInMotion     34 solves / 191 points
+
+no more, but sometimes less
+
+Downloads
+
+[challenge](https://static.dicega.ng/uploads/64e44dda2a62748631d7efb2021ce2947e056ce4762387ba0e62b2d783030716/challenge)
+
+---
+#### L'Évasion Fiscale
+hgarrereyn      14 solves / 290 points
+
+Just some creative accounting...
+
+Downloads
+
+[DiceTax.catala_en](https://static.dicega.ng/uploads/fae2d08b33b26caa063307171f13670885b4e0322a886a87373a7686474d7494/DiceTax.catala_en)
+[Dockerfile](https://static.dicega.ng/uploads/562ea0777b77e9eb7adfe8e5e83873d63ffc3b1724d87f1624a23d19e7cda5b3/Dockerfile)
+[tax.py](https://static.dicega.ng/uploads/de32c88a5b2fb735c92bc08cae8f46835c87e37f3e01bce02ef5786c545f058a/tax.py)
+
+---
+#### scrambled up
+infuzion    8 solves / 362 points
+
+This flag checker sure looks like it went through a blender.
+
+Note: Run the challenge inside a `ubuntu:22.04` docker container if you run into libc issues or crashes inside libc during startup.
+
+Downloads
+
+[scrambled-up](https://static.dicega.ng/uploads/35d5816a2565f9b3a427e1f5894a6083283519d6a449566c13af03560abe77bb/scrambled-up)
+
+---
+#### neurotic
+hgarrereyn      7 solves / 378 points
+
+mushy
+
+Downloads
+
+[brain.json](https://static.dicega.ng/uploads/0840bf62f8a5956b8e8a50625e8cd526f99e2dfeb0c059bb9a90c41621af2777/brain.json)
+[neurotic.py](https://static.dicega.ng/uploads/f2ec73d4a35084cb3667543061cb10ad70cea76d9cf51dc5e7660118ad176dfd/neurotic.py)
+
+---
+### pwn
+#### baby-talk
+kfb     80 solves / 137 points
+
+take it easy baby, don't you ever grow up, just stay this simple
+
+`nc mc.ax 32526`
+
+Downloads
+
+[chall](https://static.dicega.ng/uploads/d12445bc31833d076632bd6d910152fa0dfe21f345095b6dfa8383a457f2ac11/chall)
+[Dockerfile](https://static.dicega.ng/uploads/c1be0b29fdfb470dae7eaf8f0f104c151cec1ff86da23fb6518134f2eb84828b/Dockerfile)
+
+---
+#### C(OOO)RCPU
+chop0   52 solves / 159 points
+
+Can you find a logic flaw in this 3-issue, 5-execute, 1-retire RISC-V CPU?
+
+`nc mc.ax 31441`
+
+Downloads
+
+[cooorcpu.rar](https://static.dicega.ng/uploads/9344f02ac3d9e070a916206f8b48fcdadb1baa5220dfdfe36847e2aef25ee4e7/cooorcpu.rar)
+
+---
+#### C(OOOO)RCPU
+chop0   14 solves / 290 points
+
+Can you exploit a race condition in this 3-issue, 5-execute, 1-retire RISC-V CPU?
+
+`nc mc.ax 31442`
+
+Downloads
+
+[coooorcpu.rar](https://static.dicega.ng/uploads/2a8d9382fcc118e1ad5e0e811de3e99cdd2536bef96db3644b84235c77e539a1/coooorcpu.rar)
+
+---
+#### hop
+clubby      29 solves / 205 points
+
+Using 32 bits to encode a short jump is so wasteful... this will surely be better🐞🤓
+
+`nc mc.ax 32421`
+
+Downloads
+
+[hop.zip](https://static.dicega.ng/uploads/ab6c7cdbfa7d5818a1155311e5b5dfaefd95b8326e6f93084ee7cff1cec3e229/hop.zip)
+
+---
+#### boogie-woogie
+pepsipu     9 solves / 347 points
+
+i've been watching too much jjk
+![img](https://cdn.discordapp.com/attachments/687192357031903245/1202828753185669151/GFSHltjWkAAUveD.png)
+
+due to super bruteforce, we are forced to add POW. this is why we can't have nice things
+
+`nc mc.ax 31040`
+
+Downloads
+
+[boogie-woogie](https://static.dicega.ng/uploads/e69bd5732ccb2b53c3cf65dbc8562b056bb60ff4cbf127fe2a636fcc32db33a5/boogie-woogie)
+[Dockerfile](https://static.dicega.ng/uploads/51a3201e948fc7a7b8385f76de89648cc320496b07f488d517ba77aa0f673984/Dockerfile)
+[hook.sh](https://static.dicega.ng/uploads/06a19c228c800199d1dc5a43ad4a7ed46bbec2ce48ab13fa27d62e2ba0851a4e/hook.sh)
+[run.sh](https://static.dicega.ng/uploads/aaf75e6a3dc309a8da3542fb33a283680deb2d9a265108cd795387be2a0221e8/run.sh)
+[chroot.sh](https://static.dicega.ng/uploads/03bba40de28f3c9be94da3a70ae954c930b984a56ef6c3ea39c54c83cbe40222/chroot.sh)
+
+---
+#### dicediceotter
+NotDeGhost      3 solves / 458 points
+
+Escape the game.
+
+[ddg.mc.ax](https://ddg.mc.ax/)
+
+Submit your URL: [adminbot-ddg.mc.ax](https://adminbot-ddg.mc.ax/)
+
+Downloads
+
+[dicedicegoose.tar.gz](https://static.dicega.ng/uploads/0a76c3bcd29d221f0c972e9f50f7eb87b4ac12fa377d77843262e9ce2ba00d76/dicedicegoose.tar.gz)
+[solana_prog.so](https://static.dicega.ng/uploads/422cf5f35ec62e1554893399d14b93e87d4ff2ce614958f38ed3b669093658d9/solana_prog.so)
+
+---
 ## 240301_vishwactf
+
 ## 240308_pearlctf
+
 ## 240316_dubhectf
+
 ## 240629_uiuctf
+### Web
+#### Log Action
+431 Passengers
+105 Solves
+Author: Minh
+
+I keep trying to log in, but it's not working :'(
+
+http://log-action.challenge.uiuc.tf/
+
+---
+#### Fare Evasion
+370 Passengers
+173 Solves
+Author: Louis
+
+SIGPwny Transit Authority needs your fares, but the system is acting a tad odd. We'll let you sign your tickets this time!
+
+https://fare-evasion.chal.uiuc.tf/
+
+---
+#### pwnypass
+495 Passengers
+9 Solves
+Author: arxenix
+
+We're working on a cool password manager extension for SIGPwny members. Can you break it?
+
+`ncat --ssl pwnypass-bot.chal.uiuc.tf 1337`
+
+---
+#### pwnypass 2
+498 Passengers
+3 Solves
+Author: arxenix
+
+This is the second flag for pwnypass.
+
+`ncat --ssl pwnypass-bot.chal.uiuc.tf 1337`
+
+---
+### misc
+#### Picoify (100-500)
+-1 Passengers
+10 Solves
+Author: Richard
+
+This is a PIC16 coding challenge. Note: the flag format is `<sha256>.<number>.`
+
+This challenge is scored differently from other challenges. Competitors receive a score based on their ranking compared to others in a compression contest. See README in attached zip for more information.
+
+`ncat --ssl picoify.chal.uiuc.tf 1337`
+
+---
+#### Astea
+470 Passengers
+52 Solves
+Author: Cameron
+
+I heard you can get sent to jail for refusing a cup of tea in England.
+
+`ncat --ssl astea.chal.uiuc.tf 1337`
+
+---
+#### Slot Machine
+453 Passengers
+76 Solves
+Author: Jake
+
+We have onboard entertainment! Try your luck on our newly installed slot machine.
+
+`ncat --ssl slot-machine.chal.uiuc.tf 1337`
+
+---
+#### Push and Pickle
+468 Passengers
+55 Solves
+Author: Cameron
+
+I love how there are so many different types of pickles. I tried experimenting with two of them.
+
+`ncat --ssl push-and-pickle.chal.uiuc.tf 1337`
+
+---
+### osint
+#### The Weakest Link
+393 Passengers
+149 Solves
+Author: Emma
+
+LISA and the secret business partner have a secret Spotify collaboration planned together. Unfortunately, neither of them have the opsec to keep it private. See if you can figure out what it is!
+
+This is part three of a three-part OSINT suite including Hip With the Youth, An Unlikely Partnership, and The Weakest Link. I recommend starting with the other two challenges!
+
+---
+#### An Unlikely Partnership
+100 Passengers
+511 Solves
+Author: Emma
+
+It appears that the Long Island Subway Authority (LISA) has made a strategic business partnership with a surprise influencer! See if you can figure out who.
+
+This is part two of a three-part OSINT suite including Hip With the Youth, An Unlikely Partnership, and The Weakest Link. This challenge is possible without Hip With the Youth but will be easier if you start there.
+
+---
+#### Hip With the Youth
+81 Passengers
+567 Solves
+Author: Emma
+
+The Long Island Subway Authority (LISA), in an attempt to appeal to the younger generations, has begun experimenting with social media! See if you can find a way to a flag through their Instagram.
+
+This is part one of a three-part OSINT suite including Hip With the Youth, An Unlikely Partnership, and The Weakest Link. I recommend starting here!
+
+---
+#### Night
+121 Passengers
+466 Solves
+Author: CBCicada
+
+That was quite a pretty night view, can you find where I took it? Flag format: uiuctf{street name, city name} Example: uiuctf{East Green Street, Champaign}
+
+Some words are blurred out to make the challenge harder, hopefully.
+
+Flag format clarification: Use the full type, e.g. Avenue, Street, Road, etc., and include a space between the comma and city name.
+
+---
+#### New Dallas
+466 Passengers
+57 Solves
+Author: CBCicada
+
+Super wide roads with trains... Is this the new Dallas? Flag format: uiuctf{coordinates of intersection between the rail and the road} Example: uiuctf{41.847, -87.626}
+
+Flag format clarification: Use three decimal points of precision, truncate, and do not round. Use Google Maps location for reference. The last digit of the first cooordinate is odd, and the last digit of the second coordinate is even.
+
+---
+#### Chunky Boi
+319 Passengers
+225 Solves
+Author: CBCicada, Emma
+
+Now that's a BIG plane! I wonder where it is. Flag format: uiuctf{plane type, coordinates of the aircraft} Example: uiuctf{Airbus A380-800, 40.036, -88.264}
+
+For coordinates, just omit the digits, do not round up. Precision is the same as the one in the example. The aircraft name is the same as Wikipedia page title. You can extract enough information from this image to answer this. You DO NOT need to register any accounts, all the information is public.
+
+Flag format clarification: The last digit of the first coordinate is even, and the last digit of the second coordinate is odd.
+
+---
+### crypto
+#### Groups
+431 Passengers
+105 Solves
+Author: Nikhil
+
+My friend told me that cryptography is unbreakable if moduli are Carmichael numbers instead of primes. I decided to use this CTF to test out this theory.
+
+`ncat --ssl groups.chal.uiuc.tf 1337`
+
+---
+#### Key in a Haystack
+461 Passengers
+65 Solves
+Author: Husnain
+
+I encrpyted the flag, but I lost my key in an annoyingly large haystack. Can you help me find it and decrypt the flag?
+
+`ncat --ssl key-in-a-haystack.chal.uiuc.tf 1337`
+
+---
+#### Snore Signatures
+416 Passengers
+122 Solves
+Author: Richard
+
+These signatures are a bore!
+
+`ncat --ssl snore-signatures.chal.uiuc.tf 1337`
+
+---
+#### Without a Trace
+246 Passengers
+298 Solves
+Author: Anakin
+
+Gone with the wind, can you find my flag?
+
+`ncat --ssl without-a-trace.chal.uiuc.tf 1337`
+
+---
+#### Determined
+322 Passengers
+222 Solves
+Author: Anakin
+
+"It is my experience that proofs involving matrices can be shortened by 50% if one throws the matrices out."
+
+Emil Artin
+`ncat --ssl determined.chal.uiuc.tf 1337`
+
+---
+#### X Marked the Spot
+93 Passengers
+531 Solves
+Author: Anakin
+
+A perfect first challenge for beginners. Who said pirates can't ride trains...
+
+---
+#### Naptime
+363 Passengers
+180 Solves
+Author: Anakin
+
+I'm pretty tired. Don't leak my flag while I'm asleep.
+
+---
+### reverse
+#### Time Travel
+496 Passengers
+7 Solves
+Author: 32121
+
+I used multithreading to check your flag so much slower that it almost feels like time travel.
+
+---
+#### Pwnymaps
