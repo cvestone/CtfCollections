@@ -3189,3 +3189,78 @@ i'm tired of hearing all your complaints. pwnymalloc never complains.
 `ncat --ssl pwnymalloc.chal.uiuc.tf 1337`
 
 ---
+## 240705_DownUnderCTF
+### web
+#### co2
+A group of students who don't like to do things the "conventional" way decided to come up with a CyberSecurity Blog post. You've been hired to perform an in-depth whitebox test on their web application.
+一群不喜欢用 "传统 "方式做事的学生决定撰写一篇网络安全博客文章。你受雇对他们的网络应用程序进行深入的白盒测试。
+
+Author: n00b.master. 作者：n00b.master.
+
+---
+#### co2v2
+Well the last time they made a big mistake with the flag endpoint, now we don't even have it anymore. It's time for a second pentest for some new functionality they have been working on.
+上次他们在旗帜端点上犯了大错，现在我们甚至连旗帜端点都没有了。 现在是对他们一直在开发的一些新功能进行第二次五项测试的时候了。
+
+Author: n00b.master. 作者：n00b.master.
+
+---
+#### i am confusion
+The evil hex bug has taken over our administrative interface of our application. It seems that the secret we used to protect our authentication was very easy to guess. We need to get it back!
+邪恶的六角形 bug 已经占据了我们应用程序的管理界面。看来，我们用来保护身份验证的秘密很容易被猜到。我们需要把它找回来！
+
+Author: richighimi 作者： richighimi
+
+https://i-am-confusion.2024.ductf.dev:30001
+
+---
+#### sniffy
+Visit our sanctuary to hear the sounds of the Kookaburras!
+参观我们的保护区，聆听 Kookaburras 的声音！
+
+Author: hashkitten 作者：哈希小猫
+
+https://web-sniffy-d9920bbcf9df.2024.ductf.dev
+
+---
+#### hah got em
+Deez nutz
+
+Hah got em
+
+...
+
+Oh by the way I love using my new microservice parsing these arrest reports to PDF
+顺便说一句，我很喜欢用我的新微服务将这些逮捕报告解析成 PDF 格式
+
+The evil bot (2024) 邪恶机器人（2024）
+
+Author: ghostccamm 作者: ghostccamm
+
+https://web-hah-got-em-20ac16c4b909.2024.ductf.dev
+
+---
+#### waifu
+The big bad bot got a bit lonely after a hard day of work and made a Web Artificial Intelligence Firewall Utiliy (WAIFU) to talk with and block hacking attempts.
+辛苦工作了一天的大坏蛋机器人有点寂寞，于是制作了一个网络人工智能防火墙工具包（WAIFU）来与黑客对话并阻止黑客的入侵企图。
+
+Can you bypass the bot's WAIFU?
+你能绕过机器人的 WAIFU 吗？
+
+Important Note 重要说明
+
+Use 127.0.0.1 (not localhost) instead of container names (the ports the services are listening on are the same).
+使用 127.0.0.1 （而不是 localhost）代替容器名称（服务监听的端口相同）。
+Author: ghostccamm 作者: ghostccamm
+
+---
+#### Prisoner Processor
+The bug had a microservice for conveting JSON to YAML to assist with processing prisoners it has captured.
+该错误有一个微服务，用于将 JSON 转换为 YAML，以协助处理捕获的囚犯。
+
+Can you try to find a way to hack this microservice so we can get an initial foothold into the bug's prison system?
+你能想办法黑进这个微服务吗？这样我们就能在虫子的监狱系统中找到最初的立足点。
+
+Author: ghostccamm 作者: ghostccamm
+
+---
