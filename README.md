@@ -3264,3 +3264,14 @@ Can you try to find a way to hack this microservice so we can get an initial foo
 Author: ghostccamm 作者: ghostccamm
 
 ---
+## 240901_cyberspaceCTF
+### pwn
+#### shelltester-v2
+Shellltester was an easy one. I changed the program. Can you solve this one?
+Shellltester 很简单。我更改了程序。你能解决这个问题吗？
+
+nc shelltesterv2.challs.csc.tf 1337
+
+Author: 0xM4hm0ud
+
+---
