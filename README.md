@@ -3264,14 +3264,692 @@ Can you try to find a way to hack this microservice so we can get an initial foo
 Author: ghostccamm 作者: ghostccamm
 
 ---
-## 240901_cyberspaceCTF
+## 240921_patriotCTF
+### misc
+#### Emoji Stack
+Easy 容易
+Welcome to Emoji Stack, the brand new stack based emoji language! Instead of other stack based turing machines that use difficult to read and challenging characters like + - and [], Emoji Stack uses our proprietary patent pending emoji system.
+欢迎使用 Emoji Stack，这是一种全新的基于堆栈的表情符号语言！Emoji Stack 使用我们专有的正在申请专利的表情符号系统，而不是其他基于堆栈的图灵机使用难以阅读且具有挑战性的字符（如 + - 和 [）。
+
+The details of our implentation is below:
+我们实施的详细信息如下：
+
+👉: Move the stack pointer one cell to the right
+👉 ：将堆栈指针向右移动一个单元格
+👈: Move the stack pointer one cell to the lef
+👈 ：将堆栈指针向 lef 移动一个单元格
+👍: Increment the current cell by one, bounded by 255
+👍 ：将当前单元格递增 1，以 255 为界
+👎: Decrement the current cell by one, bounded by 0
+👎 ：将当前单元格减 1，以 0 为界
+💬: Print the ASCII value of the current cell
+💬 ：打印当前单元格的 ASCII 值
+🔁##: Repeat the previous instruction 0x## times
+🔁 ##：重复前面的指令 0x## 次
+The Emoji Stack is 256 cells long, with each cell supporting a value between 0 - 255.
+表情符号堆栈长度为 256 个单元格，每个单元格支持 0 - 255 之间的值。
+
+As an example, the program "👍🔁47💬👉👍🔁68💬👉👍🔁20💬" Would output "Hi!" with the following execution flow:
+例如，程序 “👍🔁47💬👉👍🔁68💬👉👍🔁20💬” 将输出 “Hi！”，执行流程如下：
+
+[0, 0, 0, 0] 👍🔁47
+
+[0x48, 0, 0, 0] 💬👉: H
+
+[0x48, 0, 0, 0] 👍🔁68
+
+[0x48, 0x69, 0, 0] 💬👉: i
+
+[0x48, 0x69, 0, 0] 👍🔁20
+
+[0x48, 0x69, 0x21, 0] 💬: !
+
+Flag format: CACI{.*} 标志格式：CACI{.*}
+
+Author: CACI 作者： CACI
+
+---
+#### Making Baking Pancakes
+Easy 容易
+How many layers are on your pancakes?
+你的煎饼上有多少层？
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+nc chal.pctf.competitivecyber.club 9001
+
+---
+#### RTL Warm up
+Beginner 初学者
+Let's Warm up. Spartan's wanted to create their own ASIC, to secure doors. One of the spy was able to extract the simulation file, can you find the password to the door?
+让我们热身一下。Spartan's 希望创建自己的 ASIC，以保护门的安全。其中一名间谍能够提取仿真文件，你能找到门口的密码吗？
+
+Note: The spaces are _
+注意：空格为 _
+
+Author: Databuoy
+作者： Databuoy
+
+---
+#### Really Only Echo
+Easy 容易
+Hey, I have made a terminal that only uses echo, can you find the flag?
+嘿，我做了一个只用 echo 的终端，你能找到 flag 吗？
+
+Author: Ryan Wong (shadowbringer007)
+作者： Ryan Wong （shadowbringer007）
+
+nc chal.competitivecyber.club 3333
+
+---
+#### Emoji Stack V2
+Medium 中等
+Back by popular demand, V2 of EmojiStack is ready to release! Following user feedback, we've made some changes to how things work:
+应大众需求，EmojiStack V2 已准备好发布！根据用户反馈，我们对运作方式进行了一些更改：
+
+It was pointed out that EmojiStack wasn't actually turing complete, and was instead just "A really dumb markup language." To remedy this, we've added three new commands for execution control, please see details below. Sticking with our philosophy of readability, we figured that hex numbers are too complicated and have decided to switch to easily read emoji representations. Numbers will now be encoded in base 12 from 🕛 to 🕚. Example: 🔁5f --> 🔁🕛🕖🕚 For our second release, it only seemed fair to add a second stack dimension! Emoji Stack now supports a 255x255 grid of cells. With the addition of two dimensional stacks, a good idea fairy said it might be cool to represent stack states using images. The state of the stack is now saved as a 255x255 8 bit grey scale image to allow for the pre-initialization of the stack. Images are stored raster-scan order with 0,0 being the top left of the image.
+有人指出，EmojiStack 实际上并不是图灵完备的，而只是“一种非常愚蠢的标记语言”。为了解决这个问题，我们添加了三个用于执行控制的新命令，请参阅下面的详细信息。坚持我们的可读性理念，我们认为十六进制数字太复杂了，因此决定改用易于阅读的表情符号表示。数字现在将以 12 进制编码，从 🕛 到 🕚 。示例：🔁5f --> 🔁🕛🕖🕚 对于我们的第二个版本，添加第二个堆栈维度似乎是公平的！Emoji Stack 现在支持 255x255 的单元格网格。随着二维堆栈的添加，一个好主意 Fairy 说使用图像表示堆栈状态可能会很酷。堆栈的状态现在保存为 255x255 8 位灰度图像，以允许堆栈的预初始化。图像按光栅扫描顺序存储，0,0 是图像的左上角。
+
+Commands 命令
+
+👉: Move the stack pointer one cell to the right
+👉 ：将堆栈指针向右移动一个单元格
+👈: Move the stack pointer one cell to the left
+👈 ：将堆栈指针向左移动一个单元格
+👆: Move the stack pointer one cell upwards
+👆 ：将堆栈指针向上移动一个单元格
+👇: Move the stack pointer one cell downwards
+👇 ：将堆栈指针向下移动一个单元格
+👍: Increment the current cell by one, bounded by 255
+👍 ：将当前单元格递增 1，以 255 为界
+👎: Decrement the current cell by one, bounded by 0
+👎 ：将当前单元格减 1，以 0 为界
+💬: Print the ASCII value of the current cell
+💬 ：打印当前单元格的 ASCII 值
+👂: Read one character of ASCII and store it in the current cell
+👂 ：读取 ASCII 的一个字符并将其存储在当前单元格中
+🫸: If the current cell is zero, jump to the next instruction after the respective 🫷
+🫸 ：如果当前单元格为零，则跳转到相应 🫷
+🫷: If the current cell is non-zero, jump back to the respective 🫸
+🫷 ：如果当前单元格为非零，则跳回相应的 🫸
+🔁###: Repeat the previous instruction ## times
+🔁 ###： 重复前面的指令 ## 次
+Flag format: CACI{.*} 标志格式：CACI{.*}
+
+Author: CACI 作者： CACI
+
+---
+#### RTL Easy
+Easy 容易
+They said they added a layer of encryption, do you think you can still get in?
+他们说他们增加了一层加密，你觉得你还能进去吗？
+
+Author: Databuoy
+作者： Databuoy
+
+---
+#### Let's Play [steg]Hide & Seek
+Medium 中等
+Not much of a backstory here... there is an embedded flag in here somewhere, your job is to find it.
+这里没有太多的背景故事......这里的某个地方有一个嵌入式标志，你的工作是找到它。
+
+Author: David Morgan (r0m)
+作者： David Morgan （r0m）
+
+---
+#### Make It Rain
+Medium 中等
+We built secure vault to store our secret flag but somehow got the blueprint of the vault leaked.Can you help us to retrieve the secret flag from the vault?
+我们构建了安全的保险库来存储我们的秘密标志，但不知何故，保险库的蓝图泄露了。您能帮我们从保险库中检索 secret 标志吗？
+
+Author: _jungbahadurrana 作者： _jungbahadurrana
+
+---
+#### Green Eggs and Ham
+Medium 中等
+A disgruntled timekeeper here at Bell Labs recently exfiltrated some data from our network. The crappy network down there might have caused enough errors to make it useless... right?
+贝尔实验室 （Bell Labs） 的一位心怀不满的计时员最近从我们的网络中泄露了一些数据。那里的蹩脚网络可能已经造成了足够多的错误，使其毫无用处......右？
+
+Author: Shiloh Smiles (arcticx)
+作者： Shiloh Smiles （arcticx）
+
+---
+### crypto
+#### idk cipher
+Beginner 初学者
+I spent a couple of hours with ???; now I am the world's best cryptographer!!! note: the flag contents will just random chars-- not english/leetspeak
+我花了几个小时和???在一起;现在我是世界上最好的密码学家!!注意：标志内容将只是随机字符 - 而不是 English/LeetSpeak
+
+Cipher Text: QRVWUFdWEUpdXEVGCF8DVEoYEEIBBlEAE0dQAURFD1I= 密文： QRVWUFdWEUpdXEVGCF8DVEoYEEIBBlEAE0dQAURFD1I=
+
+Please wrap the flag with pctf{}.
+请用 pctf{} 将标志括起来。
+
+Author: sans909 作者： sans909
+
+---
+#### Bigger is Better
+Beginner 初学者
+I heard choosing a small value for e when creating an RSA key pair is a bad idea. So I switched it up!
+我听说在创建 RSA 密钥对时为 e 选择较小的值是一个坏主意。所以我把它换了！
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+---
+#### One for you, one for me
+Medium 中等
+You love to order the same flag every day, but I want a flag as well. How about this, I'll split it with you. I'll take half the bits at random and flip them, keeping them all to myself! No worries, you still have half <3
+您喜欢每天订购同一面旗帜，但我也想要一面旗帜。这个怎么样，我跟你平分。我会随机拿出一半的比特，然后翻转它们，把它们都留给自己！不用担心，你还有一半的 <3
+
+Author: Samantha Hayden (shayden1337)
+作者： Samantha Hayden （shayden1337）
+
+---
+#### High Roller
+Medium 中等
+We recieved word that a criminal APT had developed their own method for generating secure asymmetric encryption keys. We were able to intercept emails between the group including encrypted comms, and a 7zip file. All we managed to find in the 7zip file they sent out was their public key, and the key generator. Can you decrypt the comms?
+我们收到消息，一个犯罪的 APT 已经开发了自己的方法来生成安全的非对称加密密钥。我们能够拦截该组之间的电子邮件，包括加密通信和 7zip 文件。我们在他们发送的 7zip 文件中设法找到的只是他们的公钥和密钥生成器。你能解密通信吗？
+
+pycryptodome v3.20.0
+
+Flag format: CACI{} 标志格式：CACI{}
+
+Author: CACI 作者： CACI
+
+---
+#### Bit by Bit
+Easy 容易
+I heard one-time pads are unbreakable.
+我听说一次性垫子是牢不可破的。
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+---
+#### Protected Console
+Hard 硬
+Unfortunately, some bad actor got into our last secure channel. This time we've come up with better implementation. Can you access the secured secure console?
+不幸的是，一些不良行为者进入了我们的最后一个安全通道。这一次，我们提出了更好的实现。您能否访问安全控制台？
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+---
+#### Textbook Schnorr right？？
+Expert 专家
+Forge your way through cryptographic deception and impersonate with precision in this challenge!
+通过加密欺骗闯出一条路，并在此挑战中精确冒充！
+
+Author: c15c01337 作者： c15c01337
+
+nc chal.competitivecyber.club 6003
+
+---
+#### Melting Tux
+medium 中等
+We found this image that was partially encrypted. We were able to recover the script used to encrypt it, but it was partially encrypted too. We have given you the image and the intelligible part of the script. Please decrypt the image. Note: Forensic evidence indicates that the image was created on August 26th, 2024 at 21:43:20 UTC.
+我们发现了这张部分加密的图片。我们能够恢复用于加密它的脚本，但它也被部分加密了。我们已经为您提供了脚本的图像和可理解的部分。请解密图像。注意：法医证据表明，该图像创建于 2024 年 8 月 26 日 21：43：20 UTC。
+
+Author: James Crowley (zephyrone3956)
+作者： James Crowley （zephyrone3956）
+
+---
+#### Scrambler V2
+Medium 中等
+I got sick of people breaking our encryption, so I came up with this custom scrambler program. You have a 0% chance of cracking this one! I even encoded the log!
+我厌倦了人们破解我们的加密，所以我想出了这个自定义的 scrambler 程序。你有 0% 的机会破解这个！我什至对日志进行了编码！
+
+Author: salochi 作者： salochi
+
+---
+### forensics
+#### Simple Exfiltration
+Easy 容易
+We've got some reports about information being sent out of our network. Can you figure out what message was sent out.
+我们收到了一些关于从我们的网络发送出去的信息的报告。您能弄清楚发出了什么消息吗？
+
+Author: Ryan Wong (shadowbringer007)
+作者： Ryan Wong （shadowbringer007）
+
+---
+#### Bad Blood
+Easy 容易
+Nothing is more dangerous than a bad guy that used to be a good guy. Something's going on... please talk with our incident response team.
+没有什么比一个曾经是好人的坏人更危险的了。发生了什么事......请与我们的事件响应团队联系。
+
+Author: elbee3779 作者： elbee3779
+
+nc chal.competitivecyber.club 10001
+
+---
+#### Slingshot
+Medium 中等
+We have recently suffered a data breach, and we need help figuring out if any data was stolen. Can you investigate this pcap file and see if there is any evidence of data exfiltration and if possible, what was stolen.
+我们最近遭受了一次数据泄露，我们需要帮助来确定是否有任何数据被盗。您能否调查此 pcap 文件，并查看是否有任何数据泄露的证据，如果可能，请查看被盗内容。
+
+Author: AJ Hoepfner (greatvaluerice)
+作者： AJ Hoepfner （greatvaluerice）
+
+---
+#### Structured Annuity
+Hard 硬
+These J.G. Wentworth ads are getting out of hand! Now we're evem getting reports that they're using malware to try and get people cash for their structured settlements! Luckily, we were able to capture some network traffic of this c2 beacon, along with the binary and a memory capture of the running process. Unfortunately, it seems like the c2 agent contains no static keys and instead generates them at run time. Can you decrypt their comms?
+这些 J.G. Wentworth 的广告正在失控！现在我们收到报告，他们正在使用恶意软件试图让人们为他们的结构化结算获取现金！幸运的是，我们能够捕获此 c2 信标的一些网络流量，以及正在运行的进程的二进制文件和内存捕获。遗憾的是，c2 代理似乎不包含静态密钥，而是在运行时生成它们。你能解密他们的通信吗？
+
+Author: Matthew Johnson (meatball5201)
+作者： Matthew Johnson （meatball5201）
+
+---
+#### A Dire Situation
+Easy 容易
+I really need help with my budget. Let's see if there's anything you can do with my current situation!
+我真的需要预算方面的帮助。让我们看看你是否可以对我目前的情况做些什么！
+
+Author: Shiloh Smiles (arcticx)
+作者： Shiloh Smiles （arcticx）
+
+---
+#### Suspicious Drive
+Hard 硬
+An overseas branch of our company was almost hit by an attack from a well-known ransomeware group, but it seemed their final payload failed. We found a suspicious drive on premises, as well as a common string in our logs: PCTF{d)zn+d$+zqbb!t+h)!#+if+y)u+zi!l}. Can you help us figure out what this payload might have been?
+我们公司的海外分公司几乎遭到来自知名勒索软件组织的攻击，但他们的最终有效载荷似乎失败了。我们在本地发现了一个可疑的驱动器，并在我们的日志中发现了一个常见的字符串： PCTF{d)zn+d$+zqbb!t+h)!#+if+y)u+zi!l} 。您能帮我们弄清楚这个有效载荷可能是什么吗？
+
+Author: Shiloh Smiles (arcticx)
+作者： Shiloh Smiles （arcticx）
+
+---
+#### Secret Note
+Medium 中等
+I was told to never write down my passwords on a sticky note, so instead I wrote them down on my computer!
+我被告知永远不要把密码写在便利贴上，所以我把密码写在了电脑上！
+
+Author: Txnner 作者： Txnner
+
+---
+#### Abnormal Maybe Illegal
+Medium 中等
+We have recently discovered tons of traffic leaving our network. We have reason to believe they are using an abnormal method. Can you figure out what data they are exfiltrating?
+我们最近发现有大量流量离开我们的网络。我们有理由相信他们使用的是不正常的方法。您能弄清楚他们泄露了哪些数据吗？
+
+Author: Ryan Wong (ShadowBringer)
+作者：Ryan Wong （ShadowBringer）
+
+---
+### web
+#### giraffe notes
+Easy 
+I bet you can't access my notes on giraffes!
+我敢打赌你无法访问我关于长颈鹿的笔记！
+
+http://chal.competitivecyber.club:8081
+
+Flag format: CACI
+
+Author: CACI
+
+---
+#### Impersonate
+Medium
+One may not be the one they claim to be.
+一个人可能不是他们声称的那个人。
+
+http://chal.competitivecyber.club:9999/
+
+Author: _jungbahadurrana
+
+---
+#### Open Seasame
+Easy 
+Does the CLI listen to magic?
+CLI 是否监听 magic？
+
+http://chal.competitivecyber.club:13336
+
+Flag format: CACI{.*}
+
+Author: CACI
+
+---
+#### DOMDOM
+Medium 中等
+I love face-book and I love to share my photos with my friends.
+我喜欢 face-book，我喜欢与朋友分享我的照片。
+
+http://chal.competitivecyber.club:9090
+
+Author: Kiran Ghimire (sau_12)
+作者： Kiran Ghimire （sau_12）
+
+---
+#### KIRAN SAU PROBLEM
+Expert 专家
+Kiran Ghimire feigned ignorance and said he had no idea what the flag was.
+Kiran Ghimire 假装不知道这面旗帜是什么。
+
+http://chal.competitivecyber.club:8090
+
+Author: Kiran Ghimire (sau_12)
+作者： Kiran Ghimire （sau_12）
+
+---
+#### dogdays
+Medium 中等
+Woof woof 呜
+
+http://chal.competitivecyber.club:7777
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+---
+#### blob
+Medium 中等
+blob says: blob blob 说： blob
+
+http://chal.competitivecyber.club:3000
+
+Flag format: CACI{.*} 标志格式：CACI{.*}
+
+Author: CACI 作者： CACI
+
+---
+#### Secret Door
+Medium 中等
+knock knock... 咚......
+
+http://chal.competitivecyber.club:1337
+
+Author: sans909 作者： sans909
+
+---
+#### BDog nom
+Medium 中等
+nom nom nom nom （不管）
+
+http://chal.competitivecyber.club:3002/
+
+Author: sans909 作者： sans909
+
+---
 ### pwn
-#### shelltester-v2
-Shellltester was an easy one. I changed the program. Can you solve this one?
-Shellltester 很简单。我更改了程序。你能解决这个问题吗？
+#### Not So Shrimple Is It
+Beginner 初学者
+Peel back the shell, unless you eat shrimp with the shell.
+剥掉壳，除非你吃带壳的虾。
 
-nc shelltesterv2.challs.csc.tf 1337
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
 
-Author: 0xM4hm0ud
+nc chal.competitivecyber.club 8884
+
+---
+#### Navigator
+Easy 容易
+Welcome to navigator! You can change stuff, view stuff and THAT'S IT.
+欢迎来到 navigator！你可以改变东西，查看东西，就是这样。
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+nc chal.competitivecyber.club 8887
+
+---
+#### Shellcrunch
+Easy 容易
+I hope you're good at shellcoding...
+我希望你擅长 shellcoding...
+
+Author: Danyaal (draz0x7)
+作者： Danyaal （draz0x7）
+
+nc chal.competitivecyber.club 3004
+
+---
+#### Strings Only
+Good luck doing something with just strings. I even got rid of the tcache because I heard that makes things easy.
+祝你好运，只用琴弦做一些事情。我什至去掉了 tcache，因为我听说这让事情变得简单。
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+nc chal.competitivecyber.club 3004
+
+---
+#### Flight Script
+Medium 中等
+Easy flights just got easier. Add your own logs and scripts to our flight console, now leakless!
+轻松的飞行变得更加轻松。将您自己的日志和脚本添加到我们的飞行控制台，现在无泄漏！
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+nc chal.competitivecyber.club 8885
+
+---
+#### sanitizer
+Hard 硬
+We made a project for our Intro to Networking class! I hope you use it to make the internet a more secure place :)
+我们为我们的网络入门课程制作了一个项目！我希望您使用它来使互联网成为一个更安全的地方:)
+
+Author: Shiloh Smiles (arcticx) and Dylan (elbee3779)
+作者：Shiloh Smiles （arcticx） 和 Dylan （elbee3779）
+
+nc chal.competitivecyber.club 5001
+
+---
+#### DirtyFetch
+Expert 专家
+My kernel is your kernel. Well, some of it. Here's ioctl.
+我的内核就是你的内核。嗯，其中一部分。这是 ioctl。
+
+Note: Only one connection per user. Compile off the box.
+注意：每个用户只能有一个连接。开箱即用。
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+nc chal.competitivecyber.club 8886
+
+---
+#### babyxss
+Expert 专家
+XSS is hard! Let's get some practice in with a javascript REPL first
+XSS 很难！让我们先练习一下 javascript REPL
+
+(flag is at /flag.txt, d8 is built off tag 11.9.99)
+（标志位于 /flag.txt，D8 基于标签 11.9.99 构建）
+
+Author: cursedCTF
+作者： cursedCTF
+
+nc chal.competitivecyber.club 8889
+
+---
+### reverse
+#### Password Protector
+Easy 容易
+We've been after a notorious skiddie who took the "Is it possible to have a completely secure computer system" question a little too literally. After he found out we were looking for them, they moved to live at the bottom of the ocean in a concrete box to hide from the law. Eventually, they'll have to come up for air...or get sick of living in their little watergapped world. They sent us this message and executable. Please get their password so we can be ready.
+我们一直在追寻一个臭名昭著的滑稽者，他对“是否有可能拥有一个完全安全的计算机系统”的问题有点过于字面化。在他发现我们在找他们后，他们搬到了海底的混凝土盒子里生活，以躲避法律。最终，他们得上来呼吸空气......或者厌倦了生活在他们的小水隙世界里。他们向我们发送了此消息和可执行文件。请获取他们的密码，以便我们做好准备。
+
+"Mwahahaha you will nOcmu{9gtufever crack into my passMmQg8G0eCXWi3MY9QfZ0NjCrXhzJEj50fumttU0ympword, i'll even give you the key and the executable:::: Zfo5ibyl6t7WYtr2voUEZ0nSAJeWMcN3Qe3/+MLXoKL/p59K3jgV"
+“哇哈哈哈哈，你会nOcmu{9gtufever破解我的通行证MmQg8G0eCXWi3MY9QfZ0NjCrXhzJEj50fumttU0ympword，我甚至会给你密钥和可执行文件：：：： Zfo5ibyl6t7WYtr2voUEZ0nSAJeWMcN3Qe3/+MLXoKL/p59K3jgV”
+
+Author: zephyrone3956 作者： zephyrone3956
+
+---
+#### Revioli, Revioli, give me the formeoli
+Easy 容易
+Can you unlock the secret formula?
+你能解开秘密配方吗？
+
+Author: Shiloh Smiles (arcticx)
+作者： Shiloh Smiles （arcticx）
+
+---
+#### Puzzle Room
+Easy 容易
+As you delve deeper into the tomb in search of answers, you stumble upon a puzzle room, its floor entirely covered in pressure plates. The warnings of the great necromancer, who hid his treasure here, suggest that one wrong step could lead to your doom.
+当你深入坟墓寻找答案时，你偶然发现了一个谜题室，它的地板完全被压力板覆盖。将宝藏藏在这里的伟大死灵法师的警告表明，一步错误就可能导致你的厄运。
+
+You enter from the center of the eastern wall. Although you suspect you’re missing a crucial clue to guide your steps, you’re confident that everything you need to safely navigate the traps is already within reach.
+您从东墙的中心进入。尽管您怀疑自己缺少指导您步骤的关键线索，但您确信安全穿越陷阱所需的一切已经触手可及。
+
+At the center of the room lies the key to venturing further into the tomb, along with the promise of powerful treasures to aid you on your quest. Can you find the path, avoid the traps, and claim the treasure (flag) on the central platform?
+房间的中央是进一步冒险进入坟墓的关键，以及强大的宝藏来帮助您完成任务的承诺。你能找到路径，避开陷阱，并在中央平台上领取宝藏（旗帜）吗？
+
+Author: Christopher Roberts (caffix)
+作者： Christopher Roberts （caffix）
+
+---
+#### Packed Full Of Surprises
+Easy 容易
+I encrypted a file with a secret flag, but now I can't seem to figure out how to decrypt it, can you help?
+我用秘密标志加密了一个文件，但现在我似乎不知道如何解密它，你能帮忙吗？
+
+Author: Txnner 作者： Txnner
+
+---
+#### Rust Lock
+Medium 中等
+Find the flag hidden behind my password protected vault. Sounds easy... right?
+找到隐藏在受密码保护的保险库后面的标志。听起来很容易......右？
+
+Author: Txnner 作者： Txnner
+
+---
+#### VM-ception: Layers of the Lost Byte
+Expert 专家
+You’ve hacked into a mysterious system, only to find yourself inside a virtual machine, within another virtual machine, like stepping into a never-ending hall of mirrors. The first VM interprets the encrypted bytecode, but every instruction gets passed to a deeper layer. As you explore further, each action plunges you deeper into the abyss, where time and logic twist in ways you've never imagined.
+你侵入了一个神秘的系统，却发现自己在一个虚拟机中，在另一个虚拟机中，就像踏入了一个永无止境的镜子大厅。第一个 VM 解释加密的字节码，但每条指令都会传递到更深的层。随着你进一步探索，每一个动作都会让你更深地陷入深渊，时间和逻辑以你从未想象过的方式扭曲。
+
+Will you escape the infinite virtual prison or succumb to its endless loops? The only way out is through... all the layers.
+你会逃离无限的虚拟监狱还是屈服于它的无限循环？唯一的出路是通过......所有图层。
+
+Author: Christopher Roberts (caffix)
+作者： Christopher Roberts （caffix）
+
+---
+#### Not another vm reversing problem
+Medium 中等
+You find yourself locked out of a mysterious terminal in an underground lair that’s rumored to hold the key to a treasure of unimaginable value: the flag. The terminal is powered by an ancient, quirky virtual machine that hasn't been updated since the days of dial-up internet. Your task is simple... on the surface.
+你发现自己被锁在一个地下巢穴的神秘终端之外，据说这个终端掌握着一件价值难以想象的宝藏的钥匙：旗帜。该终端由一个古老、古怪的虚拟机提供支持，该虚拟机自拨号互联网时代以来就没有更新过。你的任务很简单......在表面上。
+
+This VM is no ordinary one. It’s got an arcane stack-based architecture, four registers that feel like they've seen better days, and 16KB of memory that’s probably still running on hopes and dreams. But here’s the twist: the terminal was built by a paranoid genius who coded a secret message—hidden deep within the memory—wrapped in layers of logic more convoluted than the plot of a sci-fi novel.
+这个 VM 不是普通的。它有一个神秘的基于堆栈的架构，四个感觉他们已经看到了更好的日子，以及 16KB 的内存，可能仍在依靠希望和梦想运行。但转折点是：终端是由一个偏执的天才建造的，他编写了一条隐藏在记忆深处的秘密信息，包裹在比科幻小说的情节更复杂的逻辑层中。
+
+Author: Christopher Roberts (caffix)
+作者： Christopher Roberts （caffix）
+
+---
+#### AI PRNG
+Easy 容易
+I heard those tech cool buzz words use matrices. Well my (very legit) PRNG also uses matricies, can I slap AI/ML/Deep Learning on it too???? Unless???
+我听说那些很酷的科技流行词使用矩阵。好吧，我的（非常合法的）PRNG 也使用了 matricies，我也可以在上面使用 AI/ML/Deep Learning 吗????除非？？？
+
+Author: Veryyes 作者： Veryyes
+
+---
+#### Full Of Bugs
+Medium 中等
+De bugs are in me walls
+
+Author: Txnner 作者： Txnner
+
+---
+#### GO To Sleep
+Hard 硬
+My friend always sends me random messages before I go to sleep at night. He got tired of me asking what they meant, so he sent me the program used to make them.
+我的朋友总是在我晚上睡觉前随机给我发信息。他厌倦了我问他们是什么意思，所以他把制作他们的程序发给了我。
+
+Author: Txnner 作者： Txnner
+
+---
+### osint
+#### On The Run
+Easy 容易
+We've been tracking the adversary for weeks, and he just slipped up and posted this gorgeous high-rise view on his Twitter. His caption was "awesome meeting with a gorgeous view!" Can you track down his location?
+我们已经追踪了对手数周，他只是溜走了，在他的 Twitter 上发布了这张华丽的高层建筑。他的标题是“很棒的会议，美丽的景色！你能追踪他的位置吗？
+
+Flag format will be PCTF{<business name of his location>}. Not a street address. If he were in a WeWork space, it would be PCTF{wework}.
+标志格式将为 PCTF{<其所在地的商名>}。不是街道地址。如果他在 WeWork 空间，那将是 PCTF{wework}。
+
+Author: Shiloh Smiles (arcticx)
+作者： Shiloh Smiles （arcticx）
+
+---
+#### Give me four words, Vasily
+Easy 容易
+We have been tracking a highly suspicious submarine believed to be harboring many enemy skiddies. Unfortunately, this satellite image is rather out of date. Your mission is to locate the submarines there using a more up-to-date image, and tell us what class they are with their NATO reporting name - a letter from the NATO phonetic alphabet, spelled out.
+我们一直在追踪一艘高度可疑的潜艇，据信该潜艇藏匿了许多敌方防滑船只。不幸的是，这张卫星图像相当过时。你的任务是使用更新的图片找到那里的潜艇，并告诉我们它们属于哪个等级，并附上它们的北约报告名称 - 一个来自北约拼音字母的字母。
+
+We want to know precisely where the aft end of northernmost submarine attached to the pier is. Communicate its location in three words. Include the NATO reporting name of the class of submarine in your answer.
+我们想知道连接到码头的最北潜艇的尾端的确切位置。用三个词传达它的位置。在您的答案中包括潜艇类别的 NATO 报告名称。
+
+Submission format: PCTF{three.position.words.class_name} Example submission: PCTF{employing.broken.imports.sierra}
+提交格式：PCTF{three.position.words.class_name}提交示例：PCTF{employing.broken.imports.sierra}
+
+Author: James Crowley (@zephyrone3956)
+作者： James Crowley （@zephyrone3956）
+
+---
+#### Phase One
+Easy 容易
+We had one of our agents infiltrate an adversary's lab and photograph a gateway device that can get us access to their network. We need to develop an exploit as soon as possible. Attached is a picture of the device. Get us intel on what MCU the device is utilizing so we can continue with our research.
+我们让一名特工潜入对手的实验室，并拍摄了一个网关设备，该设备可以让我们访问他们的网络。我们需要尽快开发一个漏洞利用程序。附件是设备的图片。让我们了解该设备正在使用的 MCU，以便我们继续我们的研究。
+
+Flag format: pctf{mcu_vendor_name} (example: pctf{broadcom}
+标志格式：pctf{mcu_vendor_name}（示例：pctf{broadcom}
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+---
+#### Night School
+Easy 容易
+It's said that a famous geocacher has left a cache on our Fairfax campus. He took this picture before disappearing into the night. Could you help us find where this picture was taken?
+据说一位著名的 geocacher 在我们的费尔法克斯校区留下了一个宝藏。他在消失在夜色中之前拍了这张照片。您能帮我们找到这张照片的拍摄地点吗？
+
+The flag is pctf{NAME_OF_STATUE}
+标志为 pctf{NAME_OF_STATUE}
+
+Author: Dylan (elbee3779)
+作者： Dylan （elbee3779）
+
+---
+#### Porcelain Throne
+Beginner 初学者
+This toilet gives you the best view in the at sunset, which city is this located in? Flag format will be PCTF{cityname}
+这个厕所让你在日落时分看到最好的视野，它位于哪个城市？标志格式将为 PCTF{cityname}
+
+---
+#### Studious
+Medium 中等
+How much was tuition in for GWU graduate per credit hour for the 1998-1999 school year? Flag will be amount with just a period, like PCTF{1050.75} if it were $1,050.75.
+1998-1999 学年 GWU 毕业生每学分的学费是多少？Flag 将是只有一个句点的金额，例如 PCTF{1050.75}，如果它是 $1,050.75。
+
+NOTE: George Washington University, not George Mason University.
+注意：乔治华盛顿大学，而不是乔治梅森大学。
+
+---
+#### sixfeetunder
+Easy 容易
+There is an American military college that, famously, only has one person buried on its campus. What is the name of that person? Ignore any honorifics (such as Mr.), middle names, and spaces.
+有一所美国军事学院，著名的是，它的校园里只埋葬了一个人。那个人叫什么名字？忽略任何敬语（如 Mr.）、中间名和空格。
+
+for example, Mr. John A. Smith would be PCTF{johnsmith}.
+例如，John A. Smith 先生将是 PCTF{johnsmith}。
+
+author: Shiloh / arcticx 作者： Shiloh / arcticx
+
+---
+#### Dirty Laundry
+Hard 硬
+We have been tracking the leader of an international crime ring, who we believe is laundering money through his girlfriend's business. We believe he is fleeing the country under the guise of a vacation with her. All we have on her is the name "Adrianna" and some business receipts from a "Patriot Corporation LLC". Can you help us figure out where these two have gone off to? (note: there will be a real flag for this with "PCTF" and all.)
+我们一直在追踪一个国际犯罪团伙的头目，我们认为他正在通过他女朋友的生意洗钱。我们相信他是以与她一起度假为幌子逃离该国。我们所拥有的关于她的只是“Adrianna”这个名字和一些来自“Patriot Corporation LLC”的商业收据。您能帮我们弄清楚这两个人的去向吗？（注意：将有一个真正的标志，其中包含 “PCTF” 和所有内容。
+
+Author: Shiloh Smiles {arcticx}
+作者： Shiloh Smiles {arcticx}
 
 ---
