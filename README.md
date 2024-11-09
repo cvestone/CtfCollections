@@ -3960,27 +3960,55 @@ Straight to the point. 开门见山。
 
 -ProfNinja
 nc 0.cloud.chals.io 16612
+
+---
 #### ret2bf
 I heard an interview with Tame Impala where he said, "for a song to make an album, it has to have been, at some point, my favorite song ever". Well, there was at least one day when this one was my favorite CTF problem ever.
 -ProfNinja
 我听过 Tame Impala 的采访，他说， “对于制作专辑的歌曲来说，它必须在某个时候是我最喜欢的歌曲”。嗯，至少有一天，这是我最喜欢的 CTF 问题。
 
 nc 0.cloud.chals.io 31782
+
+---
 #### thetv
 The dude at 777 needs some help with his remote, he heard you worked in IT... so make sure you fix it, and don't break anything!!
 777 的那个家伙需要一些遥控器方面的帮助，他听说你在 IT 部门工作……所以一定要修好它，不要破坏任何东西！
 
 -Cam
 nc 0.cloud.chals.io 30658
+
+---
 #### thelight
 It's the same guy again, ugh, this time he needs some help with his light switch, it's been on the frits lately.
 又是同一个人，呃，这次他需要一些关于电灯开关的帮助，最近它很糟糕。
 
 -cam
 nc 0.cloud.chals.io 24481
+
+---
 #### Flaming Lips
 She likes her hair to, be real orange...
 她喜欢她的头发，真正的橙色......
 
 -ProfNinja and printf(name);
 nc 0.cloud.chals.io 24302
+
+---
+## 241109_N1CTF
+### pwn
+#### lucky
+lucky pwn. Please read readme.txt in the attachment.
+
+---
+#### PHP Master
+The latest stable PHP (8.3.13) is still pwnable.
+
+---
+#### heap_master
+In a time when everyone is a kernel master, this is just a check-in.
+
+---
+#### mailbox
+Xiaoming has put together a bit of a hodgepodge inspired by the SMTP protocol. While it won't quite let you send a real email, it can certainly help an attacker grab a flag without much trouble.
+
+---
