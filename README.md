@@ -4147,6 +4147,250 @@ Flag Format altered due to limited character set: `UDCTF/UPPERCASE/`
 (Our guest author is a top speedrunner: riiyak)
 
 ---
+### misc
+#### Welcome Letter
+Welcome to the CTF. A few notes:
+```
+* I made 10 XOR School problems, we're a uni so teaching will always be part of our CTFs.  These are made as an ode to the beauty of XOR.  
+
+* Some Training problems in the main categories: Reverse, PWN, Web, and Crypto just for first-timers.  Google the problem title + "CTF Writeup" and you'll find similar problems out there that you can mimic I'm sure.
+
+* In playtesting many of the problems were fun puzzles but I can imagine someone calling them "guessy", forgive us now.  I killed any that felt egregious and the others I've labelled as "guess school".  Behind that label is the idea that deductive reasoning within the meta of CTFing is actuallyy a muscle.  Many (very good) teams have a member that specializes in guessy problems.  I think that XOR and the guess school problems cultivate a sort of "escape room" sensibility that often is overlooked in CTF training as too frustrating.  I think it's valuable as a life skill but consider this a trigger warning, stay away from those ones if you tend to get frustrated.
+
+* I tried to make sure the main categories have enough depth to chew on but not all of the main categories are equally as deep.  I think PWN and WEB are maybe a little lighter than perfection but we have a ton of challenges and 12 less hours, so your WEB anchor might need to go help someone else after day 1.
+
+* We're a student club.  Every year students make problems.  They are fun and quirky but this year they made a TON of forensics and misc and problems that maybe crawl over several categories.  The heavy hitting teams might not love that but our deepest problems tend to get deeper and our n00b problems stay light, just the nature of undergrads.  Just have fun with it.
+
+* We pride ourselves on customer service, jump in the discord and ask questions and I'll try to teach you stuff without lessening the competitive integrity of the competition.
+
+* Some authors used udctf{} others used UDCTF{} so bear that in mind when validating your hypotheses.
+
+* We have a long history of a minecraft category, this year we don't.  Sorry.  I miss it.  FSG lives on in ranked.
+```
+#### You're such a Rube
+`rubiks`</br>
+💀</br>
+JD (jr.)
+
+---
+#### AlgebrarbeglA
+78! - k = k - !87
+Solve for k flag format is udctf{k}
+-ProfNinja
+Dedicated to Wrath of Math
+
+---
+#### Bees in Space
+Imagine if the Bee Movie happened in space 🤯... okay it probably wouldn't be that great because everyone would die or be wearing astronaut suits the whole time, but either way still cool to imagine!
+
+-AcerYeung
+
+---
+#### Sticky Keys
+`guess school`<br/>
+GEJYU?<d0 go.5 Ekrpat 4bf,afZ+
+-Malloc
+
+---
+#### An ode to Alejandro and Kristin
+Do you like puzzles?
+-The Cyber Frat (We went nuts on speed jigsaws this summer)
+
+---
+#### Scottish Ham
+You scream into the void, and it responds with this...
+~skyefi<br/>
+Hint1:Google is your friend! This goes for many CTF problems anyways, but definitely applies here. <br/>
+If you got the fake flag, you are on the right track. Follow the advice of the text directly under it...
+
+---
+#### Polar Opposites
+`guess school`<br/>
+Thres somethin backwards bout this audio... (Wrap what you find in UDCTF{})<br/>
+-SpiegelHalter
+
+---
+#### Font-inary
+`guess school`<br/>
+Have you ever struggled to read someone's handwriting? Well, whoever created this font didn't care, have fun!<br/>
+-AcerYeung
+
+---
+### XOR SCHOOL
+#### XS1: XOR without XOR
+![2024-11-10-22-49-04](https://rp01sword.oss-cn-guangzhou.aliyuncs.com/24/2024-11-10-22-49-04_870b0b47.png)
+This is how XOR makes me feel.
+
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja
+
+---
+#### XS2: Looper
+`11010210041e125508065109073a11563b1d51163d16060e54550d19`
+
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja
+
+---
+#### XS3: Roman Xor
+`xor`<br/>
+https://gist.github.com/AndyNovo/309325b566b2df42b984e2401fedbaab
+
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja
+
+---
+#### XS4: Hexy
+`xor`<br/>
+```
+In [1]: xor(flag + key + hashlib.sha256(flag).hexdigest().encode(), key).hex()
+Out[1]: '1a0c43191f5b15485d5a31574e4333141a5d073a0840541f560b515324001d00000c5315000e0a4e0452111618060654080154414b09165147791f1941041b07115816454b060b5e5a20094d135e101516425506420145544c18570d11541a4255125a5a5e5212470f050b5b425d1b434409034c5a19615c46465a424b151906041852415648415b5a44'
+```
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja
+
+---
+#### XS5: Old School
+`xor` `bad` `prng` `deduction` `meta` `guess` `school`<br/>
+I used an old, common, prng. Knowledge of the solvability of this problem helps you deduce...<br/>
+https://gist.github.com/AndyNovo/40adab2061f6b2fd47d6ba7d765fb159
+
+(this flag is udctf{...} not UDCTF{...})
+
+P.S. I would never want you to think of a problem as guessy, if you think this is guessy I encourage you to reserve judgement and do this one AFTER the other ones.
+
+HINT: Out of all the insecure PRNGs this one is the only one that can be broken using just 6 bytes mod 256 without any other insights, and it's the oldest school popular PRNG. If you pretend you have the first byte of the flag at spot i you'll get a byte mod 256 from the PRNG and can check the candidates from the prng and confirm the next character too. I know it's not too tough to validate this PRNG and the location of the flag, which also limits the list of insecure PRNGs. Once you know the prng there's only a couple ways the implementation could be done, still sensible in this context, and reasonable.
+
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja
+
+---
+#### XS6: CTR Mode is just XOR
+`lambda`<br/>
+https://gist.github.com/AndyNovo/23d509307fc55fcebae1fd522ed04295
+
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja <br/>
+https://i8fgyps3o2.execute-api.us-east-1.amazonaws.com/default/ctrmode?pt=00 <br/>
+```
+{"ciphertext": "f872c9547798b88e29b8462043948571", "probiv": "475045713653717a7936644c6d654d", "flagenc": "2cbcef061c2c4401d5bcc6c5569dab80c31daf822c0d424b2aadb5775e7c55047dd600fad942d7a32ce019da5c2edb91911cc166748fd5c4888bd030ae598968"}
+```
+#### XS7: Alternating Current
+`crypto`<br/>
+```
+In [5]: cipher = DES.new(ky, DES.MODE_OFB)
+
+In [6]: cipher.encrypt(msg).hex()
+Out[6]: 'ee73f99771135c984db42bc9e3e73148fc60add1484c4bcc1f8269b6e5b06163de5ecfe85e2049975cb333b6e1b06657c570afce64021d9e03b9789dfeea211cf368bcda780d58df00b82b9af7e4371cf375bcd4760c58df04a97881f3ef224fba62f3c237085491'
+```
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja
+
+---
+#### XS8: CBC Encrypted?
+`aes` `crypto`<br/>
+https://gist.github.com/AndyNovo/84580af56a6294ed2576366018dc557c
+
+https://vbbfgwcc6dnuzlawkslmxvlni40zkayu.lambda-url.us-east-1.on.aws/
+
+---
+#### XS9: ROX LOOHCS
+`xor rox`<br/>
+```
+In [69]: print(xor(flagmsg, flagmsg[::-1]).hex())
+051c1b7f4652001b3008525d1b7f135c32160015453001551a7f0d1707167f1d1c4e0209011144134c5b005b4c1344110109024e1c1d7f1607170d7f1a55013045150016325c137f1b5d5208301b0052467f1b1c05
+```
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja
+
+---
+#### XS10: PHP XOR
+`php` `xor` `web?` <br/>
+I could have kept going, maybe even make a pure XOR CTF but I think 10 is enough. Hope you enjoyed them.
+
+This series of problems is called the XOR SCHOOL. For whatever reason I just love xor problems and over the years there are many that have charmed my soul. This sequence is an homage to the many many ways that xor shows up in CTFs. I hope you can see some of the beauty that I see through them. -ProfNinja
+
+https://bluehens-phpxor.chals.io/
+
+---
+### osint
+#### Training Problem: Intro to OSINT
+`osint` `training` <br/>
+A famous person is selling their house. In this market, who wouldn't? Can you tell me who owns this house, and what the license plate of their "tough" car is? Flag format: udctf{FirstLast_licenseplate}
+
+-Donovan
+
+---
+#### I'm Hungry
+`guess school` `north american google...` `not DHL` <br/>
+Google is your friend. <br/>
+
+-JD (jr.)
+
+---
+### web
+#### Training Problem: Intro to Web
+`training`<br/>
+It's nice to have some training problems.
+-ProfNinja
+
+https://bluehens-webstuff.chals.io/
+
+---
+#### lists of JSONs
+Web...ish...
+-ProfNinja
+https://lists-of-jsons.web.app/
+
+---
+#### Just a day at the breach
+`lambda` `crypto` <br/>
+```
+import os
+import json
+import zlib
+
+def lambda_handler(event, context):
+    try:
+        payload=bytes.fromhex(event["queryStringParameters"]["payload"])
+        flag = os.environ["flag"].encode()
+        message = b"Your payload is: %b\nThe flag is: %b" % (payload, flag)
+        compressed_length = len(zlib.compress(message,9))
+    except ValueError as e:
+        return {'statusCode': 500, "error": str(e)}
+
+    return {
+        'statusCode': 200,
+        'body': json.dumps({"sniffed": compressed_length})
+    }
+```
+It's a little more crypto than web, but I know the exploit from a web defcon talk ages ago. This is a common web exploit for network sniffers.
+-ProfNinja
+https://55nlig2es7hyrhvzcxzboyp4xe0nzjrc.lambda-url.us-east-1.on.aws/?payload=00
+
+---
+#### DNS
+This DNS server reveals a secret to a special IP. Can you make it think you’re connecting from 127.0.0.1?<br/>
+`dig TXT flag @129.153.36.153`<br/>
+-JD (sr.)
+
+---
+#### Firefun 3
+`guess school`<br/>
+Our fireplace company was all set to take off for the moon, then we had to shut it all down. All that's left is a simple landing page.
+-ProfNinja <br/>
+Dedicated to Nisala<br/>
+https://fire.prof.ninja/
+
+---
+#### Nonogram Pt. 2: Disgraced
+`crypto` `NOT nonogram`<br/>
+Grace wrote a beautiful nonogram for us. I made a beautiful disaster from it. Nonogram? More like NOTagram, gotem<br/>
+-ProfNinja
+
+http://www.landofcrispy.com/nonogrammer/nonogram.html?mode=play&puzzle=4|4|2x2,2x2,2x2,2x2|2x2,2x2,2x2,2x2|x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x&palette=white.grey.X,black..&msg=ebab19591082e96b3db6d083e73b70350b008c5c33950b3b0cbb3bcb0001b643ef875cbecf0622
+
+---
+#### Snake
+`wasm` `rev`<br/>
+To uncover the flag, either win the game or reverse the game.<br/>
+-JD (sr.)
+
+https://snake-2024.pages.dev/snake.html
+
+---
 ### pwn
 #### Pure Write-What-Where PWN
 Straight to the point. 开门见山。
@@ -4187,14 +4431,321 @@ She likes her hair to, be real orange...
 nc 0.cloud.chals.io 24302
 
 ---
+## 241108_4tCtf
+### fil-rouge
+#### 1 - Pilote
+Your friend contacted you to help him with a... "problem".
+He found something curious when doing he's daily hacking routine.
+But in order to help him, you're going to need to understand what he found.
+
+The flag follows the format: 4T${<hex_key>}. The flag for this challenge will be annotated P1.
+
+---
+#### 2 - The Website
+t should be pretty simple to know what to do from here on out.
+Find out as much information as you can, there must be something... right?
+
+The flag follows the format: 4T${<hex_key>}. The flag for this challenge will be annotated P2.
+
+---
+#### 3 - The Meeting
+A meeting ? When is it happening, can you get more infos ?
+
+The flag follows the format: 4T${<hex_key>}. The flag for this challenge will be annotated P3.
+
+---
+#### 4 - The Alert
+An alert has rung on your friend's computer, apparently he's been monitoring for changes on the website.
+A new message has appeared, can you find out about it and what it means ?
+
+The flag follows the format: 4T${<hex_key>}. The flag for this challenge will be annotated P4.
+
+---
+#### 5 - The Alert 2
+Maybe something else can be found with your previous knowledge.
+
+The flag follows the format: 4T${<hex_key>}. The flag for this challenge will be annotated P5.
+
+---
+#### 6 - The Website 2
+Another one ? What could this be about ? Please break into it !
+
+Intelligent bruteforcing (your own script) is recommended.
+The flag follows the format: 4T${<hex_key>}. The flag for this challenge will be annotated P6.
+
+---
+#### 7 - The Final
+Go back to the chat room, The Admin is waiting for you.
+
+The flag follows the format: 4T${<hex_key>}. The flag for this challenge will be annotated P6.
+
+---
+### blockchains
+#### EVM - Intro
+My friend gave me some shiny numbers, something to do with EVM or something like that.
+He asked me to find the value that avoids self-destructing the contract.
+Anyway, here what he sent me:
+60075634600A5660035661DEAD020264067CCADF1E14601A57FF00
+
+The flag is in this format: 4T${<input>}, if the solution is decimal 4919, the flag will be 4T${0x1337}.
+
+---
+#### Kitty Kitty Bank
+Kitty Kitty Bank is a decentralized bank that allows you to store your kitties in a secure way.
+The bank works thanks to a smart contract that you can find below.
+You can now go to the bank and deposit your kitties ! :3
+
+The objective is to steal the kitties of the bank and get more than 1000 ETH on your own account.
+
+---
+#### EVM - Flattened Vyper
+I achieved to obtain this smart contract, but I can't understand what it does. Can you help me?
+The only information that I have are the followings:
+```
+The flag is cut in three parts and each part is emitted once.
+The first part is emitted in raw bytes.
+The second part is emitted in base85 encoding.
+The last part has to be RC4 with the decoded second part.
+```
+The flag is in this format: 4T${...}.
+
+---
+### blue-team
+#### Plz help me
+My friend said that his server is restarting every 10 minutes. He isn't able to find the issue. Can you help him?
+
+This challenge will restart every 10 minutes. You need to find the issue and fix it. So everything made during the last 10 minutes will be lost.
+
+---
+#### My first website
+I just created my first website and add security to my admin panel.
+But a friend of mine told me that it is not secure at all.
+Can you help me to find the vulnerability and fix it?
+
+Apparently, he let me a hint somewhere...
+
+---
+### crypto
+#### Not so private
+So Sam and Mikaela told me why one big big prime is not enough.
+Don't worry there all there and more now to improve security.
+And since you all broke my beautiful system I only give you the output this time.
+
+The flag is in this format: 4T${...}.
+
+---
+#### Gam-Gam
+I love prime numbers very much, so today I decided to begin to learn how to use and implement RSA.
+I have made an implementation of it.
+My friends Sam and Mikaela are going to review it but you can try it too if you want.
+I am a beginner so please be kind with me.
+
+The flag is in this format: 4T${...}.
+
+---
+#### Matematik
+Ok, I got carried away. Sam and Mikaela helped me again to improve everything.
+If this does not work you will have won for this year and I will acknowledge your strength.
+Good luck.
+
+The flag is in this format: 4T${...}.
+
+---
+### docker
+#### A Simple Container
+This is a challenge where you must do a simple api request.
+
+---
+#### Treasure Hunt
+Something valuable has been hidden inside this:
+https://hub.docker.com/repository/docker/unshade/what/general
+Can you find all the pieces and put them together ?
+
+The flag follows the format 4T${...}
+
+---
+### in-sanity
+#### Insanity check 1
+I just found this old scroll in my attic. Can you read it?
+The flag is literally what you see
+
+---
+#### Insanity check 2
+Work harder not smarter... or not
+We want the nth character of each page where n is the number of the page.
+Space doesn't count.
+The character must be in text and not in a picture or logo.
+For example,
+The first three characters are : `A`, `a`, `.`
+
+The flag format is : 4T${concatenationOfCharacters}
+
+---
+### misc
+#### Trace the Ghost
+A server of the company has been compromised.
+Find any intelligence that could help us to trace the ghost.
+
+The flag is in this format: 4T${}.
+
+---
+#### Stirling
+Someone gave me a nice pair of PDF, can you figure out if there's some hidden data ?
+
+The flag follows the format 4T${<hidden_data>}, if the hidden data is hios, the flag should be 4T${hios}
+
+---
+#### Discasino
+The Discasino is now opened for business! You can play with our Discasino Discord bot today !
+
+The bot will only reply with ephemeral messages, so you can play in the server or in its DMs.
+Be careful not to play with Discasino 2 now, it's a bit more secure than the first one!
+The flag is in the format 4T${flag}.
+
+---
+#### Discasino Two
+The Discasino is back at it with a new security! This time, you will not be able to bypass the game so easily. Can you still get the flag?
+
+The bot for this challenge is named Discasino 2. You can play with it in the server or in its DMs.
+The flag is in the format 4T${flag}.
+
+---
+#### Water on Mars
+Something seems weird with this picture...
+
+The flag should be wrapped with 4T${}
+
+---
+### osint
+#### Hoot Hoot
+Hello Agent,
+We are looking to locate a wanted person.
+We have obtained a photo that may be near their residence.
+Could you find the name of the city for us? Thank you.
+
+The name of the city must be in lowercase, without accents, and without spaces
+The flag is in this format: 4T${<city>}. If the solution were New York, the flag would be 4T${newyork}.
+
+---
+#### Holidays
+Hello Agent,
+Congratulations on finding the city in the previous photo!
+We are cross-referencing this information with the rest of our data.
+In the meantime, we have a second mission for you.
+One of our informants has informed us that the person we are looking for recently went on vacation.
+Give us the name of a location where this person has actually been, and for which we have visual confirmation.
+The target's name is: Owen Perkins
+
+There is no need to contact anyone for this challenge, thank you.
+The name of the location must be in lowercase, without accents, and without spaces.
+The flag is in this format: 4T${<location>}, if the solution is Central Park, the flag will be 4T${centralpark}.
+
+---
+#### Targets
+Hello Agent,
+You are doing a great job. We have contacted the local authorities to gather information on our target.
+We have since discovered that our target is part of an activist group called Hackcorp.
+They are planning an attack on three locations.
+For several years, our target has been gathering information on these locations.
+Attached, you will find three photos of potential locations. You must identify the positions of these locations.
+
+The location we ask you to find are:
+First picture: It is pretty obviuous...
+Second picture: The building on the center of background.
+Third picture: The building where the photo was taken.
+The flag is the concatenation of the first word of each three word.
+The flag is in this format: 4T${word1.word2.word3}
+
+---
+#### Secret meeting
+Hello Agent,
+Congratulations on your recent findings. We narrowly avoided an incident.
+We managed to intercept a communication and obtained a date, time, and a photo of a meeting location.
+Find the meeting location, and we will arrest any members found on site.
+
+The flag is three word corresponding to the center of the bridge that we see.
+The flag is in this format: 4T${word1.word2.word3}
+
+---
+### pwn
+#### Pas ouf
+In French, "not terrible" can be said as "pas ouf" or "bof"...
+Perhaps this program would be a good introduction for those "bof" moments?
+
+example:
+`openssl s_client -quiet -verify_quiet -connect main-5000-pwn-pas-ouf-d8f176979c1536e4.ctf.4ts.fr:52525`
+
+---
+### reverse
+#### Reverse - Readme
+I found a random USB key in a train so of course I plugged it :)
+It contained a binary asking me for a password?!
+I have no hints so I would like you to help me cracking it!
+
+The flag is in this format: 4T${<password>}, if the password is hello, the flag will be 4T${hello}.
+
+---
+### web
+#### My Sky Blog
+Welcome to my blog, I hope you find everything you need there.
+It certainly is a bit empty, but I'm sure you'll find something interesting to post !
+
+The flag format is 4T${...}.
+
+---
+#### Homelab ? More like Pwnlab !
+Your friend just told you that he has a homelab and that he is hosting a website on it.
+He told you that he is a security expert and that his website is secure.
+He also gave you SSH access in case you wanted to store file on there, don't fret, you don't have any admin access.
+
+The flag follows the format 4T${...} and is located in the /home/admin directory.
+
+---
 ## 241109_N1CTF
+### misc
+#### ezAPP
+build a app is really interesting，so just build it.
+
+---
+### crypto
+#### M4sTeriX
+I know that the matrix master is always performing tedious and error-prone matrix operations day after day : (
+
+---
+#### Seashells
+Searching for  Seashells🐚 by the seaside🏝️ : )
+```
+Notice：
+Changed alarm(1200) to alarm(1500)
+```
+
+---
+#### Twisting
+Block ciphers always felt too rigid for me, so I gave them a lively upgrade. Take a look at my demo : )
+
+---
+#### N0TR5A
+It's not RSA!
+
+---
 ### pwn
 #### lucky
 lucky pwn. Please read readme.txt in the attachment.
+```
+Notice：
+Pay attention to the GiftNote in the file, as it can help you with later stages of exploitation.
+The success rate of the expected exploit is 100%.
+Partial source code provided: https://gist.github.com/cs-cat/b89161548286a453042380cba6e7332f
+```
 
 ---
 #### PHP Master
 The latest stable PHP (8.3.13) is still pwnable.
+```
+Notice：
+https://github.com/php/php-src/issues/13754
+The expected exploit is data-only style.
+```
 
 ---
 #### heap_master
@@ -4203,5 +4754,70 @@ In a time when everyone is a kernel master, this is just a check-in.
 ---
 #### mailbox
 Xiaoming has put together a bit of a hodgepodge inspired by the SMTP protocol. While it won't quite let you send a real email, it can certainly help an attacker grab a flag without much trouble.
+```
+Notice：
+docker base image for ctfhub/pwn_xinetd
+link: https://github.com/ctfhub-team/base_image/tree/master/pwn_xinetd
+```
+
+---
+### reverse
+#### BrokenApp
+M told me he developed an application and he hide a flag inside. But this application cannot be executed correctly?
+
+---
+#### ReFantazio
+is this real life or is it just fanta sea？
+Only supports Android on arm64. Tested on Android 12 and Android 14, perhaps not supporting old versions of Android.
+
+---
+#### Txt2AsciiArt
+Txt2AsciiArt? MulMulMultiThread?
+
+---
+#### ezapk
+none
+
+---
+#### Context
+flag == N1CTF{input}
+```
+Notice：
+In the global variable, you can discover the stack of the encryption process. (Pay attention to saving and restoring the stack)
+```
+
+---
+### web
+#### Esc Error
+Error...
+tips: Enable the test_mod option in `Dockerfile` to turn the pow check off.
+
+---
+#### n1stagram
+```
+n... what?
+
+---------------------------------------------------------
+* To save your time, please test locally before attempting online version.
+* There are 2 ports open to the public: the HTTP port for the web challenge and the other TCP port for the SSH server.
+* This is an optional SSH server that you can use if you feel that your machine's network connection to the web server is not good.
+
+username:password 
+n1ctf:n1ctf!@#
+curl http://app
+---------------------------------------------------------
+```
+
+---
+#### faso
+The challenge port cannot be accessed directly through HTTP
+
+---
+#### insane_xss
+Is this really XSS?
+
+Important: Remote resources are limited, please test locally first. And it may be unstable to obtain the flag remotely. If you can stably obtain the flag locally but keep failing in remote, please contact the author. 
+ 
+Notice：`cve-2024-21733`
 
 ---
