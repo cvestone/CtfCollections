@@ -3953,7 +3953,200 @@ Author: Shiloh Smiles {arcticx}
 作者： Shiloh Smiles {arcticx}
 
 ---
-## 241108_bluehensCTF
+## 241108_bluehensUDCTF
+### crypto
+#### Training Problem: Intro to RSA
+In [9]: p = getPrime(128)
+In [10]: q = getPrime(128)
+In [11]: N = p*q
+In [12]: bytes_to_long(flag) < N
+Out[12]: True
+In [13]: print(pow(bytes_to_long(flag), 65537, N), N)
+9015202564552492364962954854291908723653545972440223723318311631007329746475 51328431690246050000196200646927542588629192646276628974445855970986472407007
+
+---
+#### Nonogram Pt. 1: Simple Enough
+`nonogram`
+When you get past the puzzle, you now face a classic encryption / old-school stego encoding. Wrap the text you find in UDCTF{TEXTHERE}.
+当你解决了这个难题后，你现在面临的是经典的加密/老式的隐写编码。将您在UDCTF{TEXTHERE}中找到的文本换行。
+
+-Grace
+http://www.landofcrispy.com/nonogrammer/nonogram.html?mode=play&puzzle=17|15|1x4.1x4,1x2.1x2,1x2.1x2,1x2.1x2,1x2.1x2,1x2.1x8,1x2.1x2.1x4,1x2.1x2.1x2.1x2,1x2.1x2.1x2.1x2,1x6.1x2,1x2.1x2,1x2.1x2,1x2.1x2,1x2.1x2,1x2.1x2,1x2.1x3,1x9|1x1,1x8,1x9,1x1.1x2,1x1.1x1.1x1,1x12,1x12,1x1.1x1.1x1,1x1.1x1.1x2.1x1,1x9.1x1,1x8.1x1,1x1.1x2.1x2,1x2.1x3,1x9,1x6|x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x&palette=white.grey.X,black..&msg=df1b4ee23140ab89541134c295c4d696774c1ec8ddf6550353ef53096152657cc9e79a0300200931353c6e9aaa446c2f55684c39d4
+
+---
+#### ROTOLACTOR
+`guess school`
+"Got Milk?"
+
+-JayV
+
+---
+#### Hand-Made's Tale
+`guess school`
+She drew this, in a language of her own invention as a puzzle for you. Pretend like you're cracking some knight's templar code in a Dan Brown novel or something. That last symbol is } and it's mirror is {.
+她用她自己发明的语言画了这个，作为给你的谜题。假装你正在破解丹·布朗小说或其他作品中的圣殿骑士密码。最后一个符号是} ，它的镜像是{ 。
+
+Made by Lexy with ❤️
+由 Lexy 与 ❤️ 制作
+
+Note from ProfNinja: after playtesting I decide to photoshop in a very subtle hint, see if you can notice it...
+ProfNinja 的注释：在游戏测试之后，我决定以非常微妙的方式进行 Photoshop 处理，看看您是否能注意到它......
+
+---
+#### Oh Baby, A (Pythagorean) Triple!
+`triangles`
+I bet you never knew about the DNA of right triangles. Found it beautiful; wrote a problem.
+我敢打赌你从来不知道直角三角形的 DNA。发现它很漂亮；写了一个问题。
+
+-ProfNinja
+https://gist.github.com/AndyNovo/747a027b87924e02202436668382630d
+
+---
+#### Corkscrew
+`old-school crypto`</br>
+`guess school`
+
+A simple little guessy crypto: `Us_lnt10ns}1443{FTCDqsysp0srrr4up_t1`
+-ProfNinja
+
+---
+#### HMAC
+There’s a secret message being HMAC-protected, but the implementation has a serious flaw. Can you recover the secret message using a side-channel attack?
+有一条秘密消息受到 HMAC 保护，但其实现存在严重缺陷。您可以使用旁路攻击恢复秘密消息吗？
+
+SRC: https://gist.github.com/AndyNovo/91e3c51ef47980d32ad1cde26b917ac4
+-Tery
+nc 0.cloud.chals.io 11320
+
+---
+#### Barcode Crypto
+These barcodes seem to be missing something, can you help me figure it out?
+这些条形码似乎缺少一些东西，你能帮我找出来吗？
+
+-AcerYeung
+
+---
+#### Simon Says
+https://gist.github.com/AndyNovo/7c172b8c5bdfcdce6c66cd0bdae53584
+-Lars
+
+---
+### forensics
+#### Whispers of the Feathered Messenger
+In a world where secrets flutter through the air, the bluehen carries a hidden message. A message that has been salted.... however its still a message... maybe the bluehen ignores the salt. This image holds more than meets the eye.
+在一个秘密在空气中飘扬的世界里，蓝母鸡携带着隐藏的信息。一条已加盐的消息……然而它仍然是一条消息……也许蓝母鸡忽略了盐。这张图片所蕴含的意义远不止表面上所看到的。
+
+shasum: e717eefe9b41212b017152756b0e640f9a4f3763 bird.jpeg
+
+---
+#### Inner Demons
+`guess school`
+
+I can't seem to sleep at night... Maybe I need to dig further within.
+我晚上似乎无法入睡……也许我需要进一步挖掘。
+-pleasework.sh
+
+---
+#### Giraffical Image Format
+`guess school`
+
+A student disagreed with my pronunciation of gif. They said, snarkily, how do you pronounced Graphical Image Format. This problem is my response.
+一名学生不同意我对 gif 的发音。他们尖刻地说，图形图像格式怎么发音。这个问题是我的回应。
+
+---
+#### RGBinary
+`guess school`
+
+Some planes are flying, some planes are grounded.
+有些飞机正在飞行，有些飞机则停飞。
+(大写UDCTF{})
+-AcerYeung
+
+---
+#### The Immortal Game
+`dig`<br/>
+`guess school`<br/>
+```
+THE IMMORTAL GAME CTF
+    184.60.121.146:53
+    make your move.
+```
+MAKE YOUR MOVE. 行动吧。
+-riiyak - 里雅克
+Based on playtesting: I'm prepared to give a clue if there are no solves after 18ish hours.
+基于游戏测试：如果 18 小时后仍没有解决问题，我准备提供线索。
+`184.60.121.146:53`
+
+---
+### reverse
+#### Training Problem: Intro to Reverse
+Just a classic flagchecker.
+只是一个经典的旗帜检查器。
+
+-ProfNinja -忍者教授
+
+(Try using dogbolt.org)
+
+---
+#### 🅱️rainrot.c
+I would like to apologize for the crimes that have been committed upon humanity and the mental trauma that may ensue from the creation of this code. I take full responsibility for my actions and ask only for forgiveness as you struggle in pursuit of the flag. I have provided C source code and omitted the header that serves as the gen-z Rosetta Stone. I wish you all the best in successful completion of this problem.
+我想为对人类犯下的罪行以及因制定本准则而可能造成的精神创伤表示歉意。我对自己的行为承担全部责任，只请求你们在争取旗帜的过程中得到宽恕。我提供了 C 源代码，并省略了用作 gen-z Rosetta Stone 的标头。祝您一切顺利，顺利完成此问题。
+
+-AZR
+
+---
+#### Cut The Flag
+https://spacegames3.itch.io/cut-the-flag
+pwd: bluehens
+- Inferno
+
+---
+#### Texting IRL
+`esolang`
+How do you even open a WORD file?
+如何打开 WORD 文件？
+
+-ProfNinja
+
+P.S. I would love to see the most beautiful solutions, DM me if you're proud of your work.
+PS 我很想看到最漂亮的解决方案，如果您对自己的工作感到自豪，请私信我。
+
+---
+#### Hogwarts Stairs
+`esolang`
+If you lived in Hogwarts I bet navigating those moving stairs would feel something like this problem.
+如果你住在霍格沃茨，我敢打赌，在那些移动的楼梯上行走也会有类似这个问题的感觉。
+
+CONTRAINT/HINT: I picked the exit point to be exactly 1337 loops through the big loop. There are nonsense flags that will say correct without that.
+约束/提示：我选择的退出点恰好是大循环的 1337 个循环。如果没有这些，有些无意义的标志也会说是正确的。
+-ProfNinja
+
+HTTP not HTTPS HTTP 不是 HTTPS
+```
+('i:5259w_Wn9J_IJD9_L63_q69M6e_bbDyKDJc6S4f', 1330)
+('i:5259w_Wn9J_IJD9_L6F_q69M6e_bbDyKDJc6S4f', 1331)
+('j:5259w_Wn9J_IJD9_L6F_q69M6e_bbDyKDJc6S4f', 1332)
+('j:5259w_Wn9J_IJD9_L6F_q69M6e_bbDyKDJc6S4f', 1333)
+('k:5259w_Wn9J_IJD9_L6F_q69M6e_bbDyKDJc6S4f', 1334)
+('k:5259n_Wn9J_IJD9_L6F_q69M6e_bbDyKDJc6S4f', 1335)
+('l:5259n_Wn9J_IJD9_L6F_q69M6e_bbDyKDJc6S4f', 1336)
+('l:5259n_Wn9J_IJD9_L6F_g69M6e_bbDyKDJc6S4f', 1337)
+```
+http://yiap.nfshost.com/esoteric/novice/novice.html
+
+---
+#### G.G.
+`nes`<br/>
+`guess school`<br/>
+Unlock the Power -Codemasters
+解锁力量 - Codemasters
+
+Flag Format altered due to limited character set: `UDCTF/UPPERCASE/`
+由于字符集有限而更改的标志格式： UDCTF/UPPERCASE/
+
+(Our guest author is a top speedrunner: riiyak)
+
+---
 ### pwn
 #### Pure Write-What-Where PWN
 Straight to the point. 开门见山。
