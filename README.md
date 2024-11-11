@@ -4308,14 +4308,15 @@ https://bluehens-phpxor.chals.io/
 ### osint
 #### Training Problem: Intro to OSINT
 `osint` `training` <br/>
-A famous person is selling their house. In this market, who wouldn't? Can you tell me who owns this house, and what the license plate of their "tough" car is? Flag format: udctf{FirstLast_licenseplate}
-
+A famous person is selling their house. In this market, who wouldn't? Can you tell me who owns this house, and what the license plate of their "tough" car is? 
+一位名人正在出售他们的房子。在这个市场上，谁不想呢？你能告诉我这栋房子的主人是谁吗？他们那辆“硬派”汽车的车牌是什么？
+Flag format: udctf{FirstLast_licenseplate}
 -Donovan
 
 ---
 #### I'm Hungry
 `guess school` `north american google...` `not DHL` <br/>
-Google is your friend. <br/>
+Google is your friend. 谷歌是你的朋友。<br/>
 
 -JD (jr.)
 
