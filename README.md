@@ -607,7 +607,7 @@ Author: ravinesPlains
 
 Porter has gone MIA. Yes there is some action happening. But right now we need to focus on finding her. The following evidence was found at one of the multiple condos she had rented. Can you figure out where she went?
 
-Flag format: nite{<buildings-english-name-in-lowercase-with-underscore>}
+Flag format: `nite{<buildings-english-name-in-lowercase-with-underscore>}`
 
 ---
 #### blindjail
@@ -3873,7 +3873,7 @@ Easy 容易
 We've been tracking the adversary for weeks, and he just slipped up and posted this gorgeous high-rise view on his Twitter. His caption was "awesome meeting with a gorgeous view!" Can you track down his location?
 我们已经追踪了对手数周，他只是溜走了，在他的 Twitter 上发布了这张华丽的高层建筑。他的标题是“很棒的会议，美丽的景色！你能追踪他的位置吗？
 
-Flag format will be PCTF{<business name of his location>}. Not a street address. If he were in a WeWork space, it would be PCTF{wework}.
+Flag format will be `PCTF{<business name of his location>}`. Not a street address. If he were in a WeWork space, it would be PCTF{wework}.
 标志格式将为 PCTF{<其所在地的商名>}。不是街道地址。如果他在 WeWork 空间，那将是 PCTF{wework}。
 
 Author: Shiloh Smiles (arcticx)
