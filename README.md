@@ -2189,6 +2189,7 @@ I just want a picture of a god-dang Madagascar cat
 Downloads
 
 [challenge.py](https://static.dicega.ng/uploads/21bdd4c2bf7b4bbb1ac53e2181544837f2c8cc26e1d6185864426c358d25b39d/challenge.py)
+
 ---
 #### IRS
 kmh     2 solves / 481 points
@@ -4822,3 +4823,87 @@ Important: Remote resources are limited, please test locally first. And it may b
 Notice：`cve-2024-21733`
 
 ---
+## 241115_pwnsecCTF
+### pwn
+#### Patch Me Up
+100
+Easy 简单的
+Anyone got a bandaid? Need some patching up.
+有人有创可贴吗？需要一些修补。
+
+amoor22
+
+`nc pwn-patchmeup.pwnsec.xyz 37117`
+`patch-me-up.zip`  修补程序.zip
+
+---
+#### Half Blind
+484
+Medium 中等的
+Can you ROP with your eyes closed?
+你能闭着眼睛ROP吗？
+
+0x4v3rn4l15
+
+`nc pwn-halfblind.pwnsec.xyz 37331`
+`half-blind.zip`  半盲.zip
+hint: `RET: 0x000000000040101a`
+
+---
+#### Library
+496
+Medium 中等的
+Can I has book? 我可以有书吗？
+
+goldenboy 金童
+
+nc pwn-library.pwnsec.xyz 37068
+library.zip  库.zip
+
+---
+#### David's Last Shared Memory  
+500
+Hard 难的
+
+The exceptional Netrunner, Lucy, discovered a shared memory left behind by David before he died. Within this shared memory, Lucy found that her BrainDance Loader, which she had developed in the past, still exists in the Arasaka corporation's network. Lucy recalls embedding a backdoor in this BrainDance Loader but has forgotten how to activate it. V, can you help Lucy uncover Arasaka's secrets and fly to the moon?  
+杰出的网络行者露西发现了大卫死前留下的共同记忆。在这段共享记忆中，露西发现她过去开发的BrainDance Loader仍然存在于荒坂公司的网络中。 Lucy 记得在这个 BrainDance Loader 中嵌入了一个后门，但忘记了如何激活它。 V，你能帮助露西揭开荒坂的秘密并飞向月球吗？
+
+File (10 GB): [davids-last-shared-memory.zip](https://handouts.pwnsec.xyz/davids-last-shared-memory.zip)  
+
+Password if prompted: GSxudzsB937nxYzvmGM0wNqkWVD6WRvQXekP  
+如果出现提示，请输入密码：GSxudzsB937nxYzvmGM0wNqkWVD6WRvQXekP
+
+Zoodasa 佐达萨
+
+[davids-last-shared-memory.zip](https://ctf.pwnsec.xyz/files/0d8996ab8838972737079cd7e5ac649b/davids-last-shared-memory.zip?token=eyJ1c2VyX2lkIjo5NDQsInRlYW1faWQiOjM2NywiZmlsZV9pZCI6MTM1fQ.ZzitIw.YAU_xNiSZ3-bExtvEqyM2yivyAo)
+
+hint:
+
+- what is Windows's MDL? Windows 的 MDL 是什么？
+- What is "Shared Memory"? Will PA be different if VA is different?  
+- 什么是“共享内存”？如果VA不同，PA也会不同吗？
+- Windows Access Tokens Windows 访问令牌
+
+---
+### Music Streaming Server
+500
+Hard 难的
+
+I made a music streaming server using the best compression algorithm!  
+我使用最好的压缩算法制作了一个音乐流媒体服务器！
+
+OSORI 奥索里
+
+[http://20.117.224.96/](http://20.117.224.96/) [http://20.117.224.96:443/](http://20.117.224.96:443/) 
+[music-streaming-server.zip](https://ctf.pwnsec.xyz/files/259d697f8263b08bb01e07a8cc1799ae/music-streaming-server.zip?token=eyJ1c2VyX2lkIjo5NDQsInRlYW1faWQiOjM2NywiZmlsZV9pZCI6MTMzfQ.ZziurQ.8fwZVAE_fTLtYVpjgPn0GidgImg)
+
+hint:
+- You need to read the zstd developer documentation  
+您需要阅读 zstd 开发人员文档
+- Some syscalls can write another process's memory without open  
+有些系统调用可以在不打开的情况下写入另一个进程的内存
+
+---
+## 241115_1337UP_LIVE_CTF
+### pwn
+#### 
