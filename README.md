@@ -4906,4 +4906,58 @@ hint:
 ---
 ## 241115_1337UP_LIVE_CTF
 ### pwn
+#### aby Kernel  婴儿内核
+347
+
+`created by 0xM4hm0ud`
+
+Can you help the baby exploit reach its full potential?  
+你能帮助婴儿充分发挥其潜力吗？
+
+`nc babykernel.ctf.intigriti.io 1343`
+
+ [babykernel.zip  婴儿内核.zip](https://ctf.intigriti.io/files/1834a0574996440c94d05b021314d479/babykernel.zip?token=eyJ1c2VyX2lkIjoyNTM3LCJ0ZWFtX2lkIjoxNDA4LCJmaWxlX2lkIjo0MH0.Zzi1rg.bLQCO0aoze1fL4ETCTn1-ENgcFY "babykernel.zip")
+
+---
+#### XSS Finder Tool  XSS 查找工具
+
+500
+
+`created by Jopraveen`
+
+A friend of mine found many XSS bugs in his bug hunting, one day I asked him how he found this much vulnerabilities, then he presented me his tool, and gave access to it.  
+我的一个朋友在寻找 bug 时发现了很多 XSS bug，有一天我问他是如何发现这么多漏洞的，然后他向我展示了他的工具，并允许访问它。
+
+I just need to give a domain name in the dashboard, his tool fuzzes the web application and finds the XSS vulnerabilities in that domain, he said that he use headless chrome under the hood.  
+我只需要在仪表板中提供一个域名，他的工具就会模糊 Web 应用程序并找到该域中的 XSS 漏洞，他说他在幕后使用了 headless chrome。
+
+You can access his website using the below link and find more XSS, however it's still in development so the FUZZing wordlist is small.  
+您可以使用下面的链接访问他的网站并找到更多 XSS，但它仍在开发中，因此 FUZZing 单词列表很小。
+
+Flag location: /tmp/ 标志位置：/tmp/
+
+[https://xssfinder.ctf.intigriti.io](https://xssfinder.ctf.intigriti.io/)
+
+Unlock Hint for 0 points  
+解锁提示0分
+
+Check the User-Agent and PWN the browser! v8 version: 11.8.161  
+检查用户代理和浏览器 PWN！ v8版本：11.8.161
+
+ [xss_finder.zip](https://ctf.intigriti.io/files/a6cb5e188195670084ce8cfe230ffa9a/xss_finder.zip?token=eyJ1c2VyX2lkIjoyNTM3LCJ0ZWFtX2lkIjoxNDA4LCJmaWxlX2lkIjo0MX0.Zzi16A.OwFw8EqDBWARlHxA29C8GtSsIyI "xss_finder.zip")
+
+---
+### mobile
+#### Quiz  测验
+
+191
+
+`created by 0xM4hm0ud`
+
+Can you solve all the questions?  
+你能解答所有问题吗？
+
+ [quiz.apk  测验.apk](https://ctf.intigriti.io/files/a23a075e874f25c0b266e2238506e979/quiz.apk?token=eyJ1c2VyX2lkIjoyNTM3LCJ0ZWFtX2lkIjoxNDA4LCJmaWxlX2lkIjo2OX0.Zzi86Q.LE0PYsnqmbC8I2HWr1myKsoMScc "quiz.apk")
+
+---
 #### 
