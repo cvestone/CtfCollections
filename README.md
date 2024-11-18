@@ -2581,7 +2581,8 @@ A notorious hacker group known as “The Cipher Syndicate” has stolen sensitiv
 #### Transaction_Hash
 SRPG easy
 
-Welcome to Mumbai, the city of crime and chaos. You are a hacker who wants to infiltrate the network of a notorious gang leader, Franklin Clinton. He has deployed a smart contract on a layer-two (L2) scaling platform for the Ethereum blockchain that contains some information about his associates, such as Markus and Trevor Philips. The contract address is 0x9562029A39BF4E0F1e2811a97f0962B70E97e7c8. You need to interact with the contract and decode the output.
+Welcome to Mumbai, the city of crime and chaos. You are a hacker who wants to infiltrate the network of a notorious gang leader, Franklin Clinton. He has deployed a smart contract on a layer-two (L2) scaling platform for the Ethereum blockchain that contains some information about his associates, such as Markus and Trevor Philips. The contract address is `0x9562029A39BF4E0F1e2811a97f0962B70E97e7c8`. You need to interact with the contract and decode the output.
+欢迎来到孟买，这座犯罪和混乱的城市。您是一名黑客，想要渗透到臭名昭著的帮派头目富兰克林·克林顿 （Franklin Clinton） 的网络。他在以太坊区块链的第二层 （L2） 扩展平台上部署了一个智能合约，其中包含有关他的同事（如 Markus 和 Trevor Philips）的一些信息。合约地址为 `0x9562029A39BF4E0F1e2811a97f0962B70E97e7c8`。您需要与合约交互并解码输出。
 
 `Get to this contract address to get the hash value.`
 
@@ -4906,7 +4907,7 @@ hint:
 ---
 ## 241115_1337UP_LIVE_CTF
 ### pwn
-#### aby Kernel  婴儿内核
+#### baby Kernel  婴儿内核
 347
 
 `created by 0xM4hm0ud`
